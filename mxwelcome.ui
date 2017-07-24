@@ -427,7 +427,7 @@
          </size>
         </property>
         <property name="text">
-         <string>Default Look</string>
+         <string>Tweak</string>
         </property>
         <property name="icon">
          <iconset resource="images.qrc">
@@ -611,7 +611,9 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset theme="help-about"/>
+        <iconset theme="help-about">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -671,7 +673,9 @@
         <string>Close</string>
        </property>
        <property name="icon">
-        <iconset theme="window-close"/>
+        <iconset theme="window-close">
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>

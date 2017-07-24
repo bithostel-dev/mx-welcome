@@ -1,0 +1,22 @@
+Format: 1.8
+Date: Sun, 23 Jul 2017 21:27:49 -0500
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: i386
+Version: 17.07
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Dolphin <dolphinoracle@gmail.com>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (17.07) mx; urgency=medium
+ .
+   * updates for stretch
+Checksums-Sha1:
+ 4d2e15fbd560948bf7255c2eefbe7a780974eb63 48358 mx-welcome_17.07_i386.deb
+Checksums-Sha256:
+ 955a4172fb8b187f4bd6535212017e944fd4f7e6670971b53564d917c564ed7b 48358 mx-welcome_17.07_i386.deb
+Files:
+ 09890dc8d75e92d039d61ee460903ccd 48358 admin optional mx-welcome_17.07_i386.deb

@@ -185,7 +185,7 @@ void mxwelcome::on_buttonLogininfo_clicked()
 void mxwelcome::on_buttonPanelOrient_clicked()
 {
     this->hide();
-    system("mx-defaultlook");
+    system("mx-tweak");
     this->show();
 }
 
