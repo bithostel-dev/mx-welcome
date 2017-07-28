@@ -15,8 +15,8 @@ Changes:
  .
    * updates for stretch
 Checksums-Sha1:
- 4d2e15fbd560948bf7255c2eefbe7a780974eb63 48358 mx-welcome_17.07_i386.deb
+ 581b2e0814c6fd9caccb9e387e134aedf9d074a9 48360 mx-welcome_17.07_i386.deb
 Checksums-Sha256:
- 955a4172fb8b187f4bd6535212017e944fd4f7e6670971b53564d917c564ed7b 48358 mx-welcome_17.07_i386.deb
+ 6dd58e868724bf9e40db9df02d9b9df131a8d0c86562d6edbf00aaf58375cabb 48360 mx-welcome_17.07_i386.deb
 Files:
- 09890dc8d75e92d039d61ee460903ccd 48358 admin optional mx-welcome_17.07_i386.deb
+ 367fc319e913bb1a6644870418b75d36 48360 admin optional mx-welcome_17.07_i386.deb
