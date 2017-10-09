@@ -140,7 +140,7 @@ void mxwelcome::on_buttonTools_clicked()
 void mxwelcome::on_buttonManual_clicked()
 {
     this->hide();
-    system("mx-viewer /usr/local/share/doc/mxum.html");
+    system("mx-manual");
     this->show();
 }
 
