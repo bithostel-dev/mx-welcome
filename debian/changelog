@@ -1,4 +1,10 @@
-mx-welcome (17.10.04) mx; urgency=medium
+mx-welcome (17.10.05) mx; urgency=medium
+
+  * adjustments to login info box
+
+ -- Dolphin <dolphinoracle@gmail.com>  Sat, 21 Oct 2017 15:23:49 -0500
+ 
+ mx-welcome (17.10.04) mx; urgency=medium
 
   * adjustments to for default button
 

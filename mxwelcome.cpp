@@ -178,7 +178,9 @@ void mxwelcome::on_buttonContribute_clicked()
 void mxwelcome::on_buttonLogininfo_clicked()
 {
     this->hide();
-    system("mx-viewer file:///usr/local/share/doc/mxum.html#toc-Subsection-2.4");
+    QMessageBox::information(this, tr("Live Login Info"), "<p align=\"center\">" +
+                       tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
+                       tr("<b>Root</b> Password:  <b>root</b></p> "));
     this->show();
 }
 
