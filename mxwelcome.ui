@@ -623,7 +623,7 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset theme="help-about">
+        <iconset theme="gtk-about">
          <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
