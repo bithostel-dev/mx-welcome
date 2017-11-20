@@ -106,6 +106,9 @@
           <verstretch>0</verstretch>
          </sizepolicy>
         </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Users Manual</string>
         </property>
@@ -153,6 +156,9 @@
           <width>141</width>
           <height>0</height>
          </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
          <string>Forums</string>
@@ -202,6 +208,9 @@
           <height>0</height>
          </size>
         </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Videos</string>
         </property>
@@ -230,6 +239,9 @@
           <horstretch>0</horstretch>
           <verstretch>0</verstretch>
          </sizepolicy>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
          <string>Wiki</string>
@@ -312,6 +324,9 @@
           <height>0</height>
          </size>
         </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Tools</string>
         </property>
@@ -348,6 +363,9 @@
       </item>
       <item row="8" column="4" rowspan="2">
        <widget class="FlatButton" name="buttonContribute">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Contribute</string>
         </property>
@@ -390,6 +408,9 @@
           <height>0</height>
          </size>
         </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Tweak</string>
         </property>
@@ -413,6 +434,9 @@
       </item>
       <item row="10" column="4">
        <widget class="FlatButton" name="buttonPackageInstall">
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
         <property name="text">
          <string>Popular Apps</string>
         </property>
@@ -561,6 +585,9 @@
    </item>
    <item row="2" column="3" colspan="2">
     <widget class="QCheckBox" name="checkBox">
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
      <property name="text">
       <string>Show this dialog at start up</string>
      </property>
@@ -615,6 +642,9 @@
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
        </property>
        <property name="toolTip">
         <string>About this application</string>
@@ -676,6 +706,9 @@
          <horstretch>0</horstretch>
          <verstretch>0</verstretch>
         </sizepolicy>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
        </property>
        <property name="toolTip">
         <string>Quit application</string>
