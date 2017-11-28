@@ -653,8 +653,7 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset theme="gtk-about">
-         <normaloff>.</normaloff>.</iconset>
+        <iconset theme="help-about"/>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
