@@ -148,7 +148,7 @@ void mxwelcome::on_buttonManual_clicked()
 void mxwelcome::on_buttonForum_clicked()
 {
     this->hide();
-    system("mx-viewer http://forum.mxlinux.org/index.php");
+    system("exo-open --launch WebBrowser http://forum.mxlinux.org/index.php");
     this->show();
 }
 
@@ -156,7 +156,7 @@ void mxwelcome::on_buttonForum_clicked()
 void mxwelcome::on_buttonWiki_clicked()
 {
     this->hide();
-    system("mx-viewer http://www.mxlinux.org/wiki");
+    system("exo-open --launch WebBrowser http://www.mxlinux.org/wiki");
     this->show();
 }
 
@@ -170,7 +170,7 @@ void mxwelcome::on_buttonVideo_clicked()
 void mxwelcome::on_buttonContribute_clicked()
 {
     this->hide();
-    system("mx-viewer http://www.mxlinux.org/donate");
+    system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
     this->show();
 }
 
