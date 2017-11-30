@@ -565,6 +565,9 @@
        <kerning>true</kerning>
       </font>
      </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
      <property name="autoFillBackground">
       <bool>false</bool>
      </property>
@@ -653,7 +656,8 @@
         <string>About...</string>
        </property>
        <property name="icon">
-        <iconset theme="help-about"/>
+        <iconset theme="help-about">
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
