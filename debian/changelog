@@ -1,3 +1,9 @@
+mx-welcome (17.11.03) mx; urgency=medium
+
+  * adjustments to default buttons 
+
+ -- Dolphin <dolphin@littlebyte>  Thu, 30 Nov 2017 19:46:11 -0500
+
 mx-welcome (17.11.02) mx; urgency=medium
 
   * adjustment to help-about icon (paul)
