@@ -123,7 +123,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -174,7 +174,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -225,7 +225,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -257,7 +257,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -341,7 +341,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -380,7 +380,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -425,7 +425,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -451,7 +451,7 @@
          </size>
         </property>
         <property name="autoDefault">
-         <bool>false</bool>
+         <bool>true</bool>
         </property>
         <property name="flat">
          <bool>true</bool>
@@ -657,13 +657,14 @@
        </property>
        <property name="icon">
         <iconset theme="help-about">
-         <normaloff>.</normaloff>.</iconset>
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="default">
         <bool>false</bool>
@@ -721,16 +722,17 @@
        </property>
        <property name="icon">
         <iconset theme="window-close">
-         <normaloff>.</normaloff>.</iconset>
+         <normaloff/>
+        </iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>
        </property>
        <property name="autoDefault">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
        <property name="default">
-        <bool>false</bool>
+        <bool>true</bool>
        </property>
       </widget>
      </item>
@@ -756,8 +758,8 @@
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>723</x>
-     <y>519</y>
+     <x>663</x>
+     <y>458</y>
     </hint>
     <hint type="destinationlabel">
      <x>388</x>

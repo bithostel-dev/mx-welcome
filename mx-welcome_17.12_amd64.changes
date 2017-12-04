@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 15:20:48 -0500
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 1214f40729bdfb091ba2ba987f2aed2dfbb273d6 1122 mx-welcome_17.12.dsc
+ 3615a586b6ab2ae1158e52fcdd700b12fbc9a78c 55316 mx-welcome_17.12.tar.xz
+ d92624d10baf120a82a743e667a445723f5ac1d9 57530 mx-welcome_17.12_amd64.deb
+Checksums-Sha256:
+ 712dcb0248ff5aa09f52f4c93397c717deac1d16331179f41db961e394b01857 1122 mx-welcome_17.12.dsc
+ 3d4b6c61c9176dd5f7f30244d247074d71b808f0802b4f59040f4100abedfc45 55316 mx-welcome_17.12.tar.xz
+ 7791ed40586f64301b2dc585197ffef7f6fe2d1aa5411458a6defb12e3a05807 57530 mx-welcome_17.12_amd64.deb
+Files:
+ ccd6a680b4c2d8a779d1d28f1d49f6d8 1122 admin optional mx-welcome_17.12.dsc
+ 0c161082e7cf495b76d0b3cdf4b73fd2 55316 admin optional mx-welcome_17.12.tar.xz
+ 387ac2c6f22d271d128a0f8a61c678a0 57530 admin optional mx-welcome_17.12_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJa6rAAoJEHCTjHgGee6Y59MH/jgTiHJiCVkj0UwztBhPyzPJ
+B4nGqW9VJeRSnDdLP1k3kC/8HIsQ/h1Vs0oTEmdpMIILz0tE2bdMDPYGW9pJ0iIl
+zsAaOb+weTnQClaUqH8acwlsPX/bl/cp288bpM1mFQEI/v4Wdlrs2NMyRrXf6C1z
+bwC0ZYKYsM04dSM28fSw7jZQclp+VtlEGAD4iSQdb0Xoe3+RfCRYuCP0h5uejfD6
+2hv5espMQ3QNtMJzmOkWgN6mIi1ZCWTOBx083e7Shevd4M3tlZU32PZR1x4T4Yxy
+G4OQ0MVFOANg0kNMIKzMZbBBf/yY0VEUFWv41MpgvcLyJ8ax0Dia5x+7QpKLxE0=
+=Gr+W
+-----END PGP SIGNATURE-----

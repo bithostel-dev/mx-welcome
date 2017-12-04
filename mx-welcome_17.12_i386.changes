@@ -1,0 +1,37 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Mon, 04 Dec 2017 15:20:48 -0500
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: i386
+Version: 17.12
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (17.12) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 3f2ff2a1b2726dcb55338e9bd8db289b7c3fae19 57888 mx-welcome_17.12_i386.deb
+Checksums-Sha256:
+ 41490d5f0940dfe1bba27f9b90d5cbfa7d071fc8a4d2afa59ca5616697aa89d2 57888 mx-welcome_17.12_i386.deb
+Files:
+ 58d41b3ff5668452e6501fa78c644522 57888 admin optional mx-welcome_17.12_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJaJa8AAAoJEHCTjHgGee6YyM8H/i3CuNFgDxDYhCFSDbmF/Xsj
+uxP5xhOzzHd7r8q6wXxuzx25qBpjO9gqlIg+i7ebKkyrWaDXzJeuy8z7Mki6INE8
+dCWWEbDp3qFA2Y1HZQuImKFtiwmwBwI3pnYLmgeDMVVBJrV6CtdabFbWdhn5BXjd
+Fooub4fPkO+o6yAqXHl4T9NPHtCB7RKw7pWueoJV+drxPckr5S3kZPDLhMjLSfBT
+U6vWWAPZilJCN50E2RH+sbp1dt7hHpV519ZH+3exmDAmuB335HF7lxTSsDGf71EE
+iM7zYoF1bmMYYOFNyySVKkMqODWw162JgenYJsDrmakuuRnJfq3wGdz95WbtktA=
+=5yF/
+-----END PGP SIGNATURE-----
