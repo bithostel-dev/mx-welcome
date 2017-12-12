@@ -1,3 +1,9 @@
+mx-welcome (17.12+1) mx; urgency=medium
+
+  * translations updates
+
+ -- Adrian <adrian@mxlinux.org>  Mon, 11 Dec 2017 23:21:57 -0500
+
 mx-welcome (17.12) mx; urgency=medium
 
   * new translations
