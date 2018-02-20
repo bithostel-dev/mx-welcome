@@ -54,8 +54,8 @@
     </message>
     <message>
         <location filename="mxwelcome.ui" line="415"/>
-        <source>Tweak</source>
-        <translation>Ajustements</translation>
+        <source>Tweak (Panel, etc...)</source>
+        <translation>Ajustements (Tableau de bord, etc...)</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="441"/>

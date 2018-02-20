@@ -4,7 +4,7 @@
     <message>
         <location filename="main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
-        <translation type="unfinished"/>
+        <translation>እርስዎ ይህን ፕሮግራም እንደ መደበኛ ተጠቃሚ ማስኬድ አለብዎት</translation>
     </message>
 </context>
 <context>
@@ -54,7 +54,7 @@
     </message>
     <message>
         <location filename="mxwelcome.ui" line="415"/>
-        <source>Tweak</source>
+        <source>Tweak (Panel, etc...)</source>
         <translation type="unfinished"/>
     </message>
     <message>

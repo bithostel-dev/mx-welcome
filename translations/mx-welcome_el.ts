@@ -54,8 +54,8 @@
     </message>
     <message>
         <location filename="mxwelcome.ui" line="415"/>
-        <source>Tweak</source>
-        <translation>Τσιμπιά</translation>
+        <source>Tweak (Panel, etc...)</source>
+        <translation>Τροποποίησες</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="441"/>
