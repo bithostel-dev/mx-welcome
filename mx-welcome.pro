@@ -38,28 +38,28 @@ HEADERS  += mxwelcome.h \
 
 FORMS    += mxwelcome.ui
 
-TRANSLATIONS += translations/mx-bootrepair_am.ts \
-                translations/mx-bootrepair_ca.ts \
-                translations/mx-bootrepair_cs.ts \
-                translations/mx-bootrepair_de.ts \
-                translations/mx-bootrepair_el.ts \
-                translations/mx-bootrepair_es.ts \
-                translations/mx-bootrepair_fr.ts \
-                translations/mx-bootrepair_hu.ts \
-                translations/mx-bootrepair_it.ts \
-                translations/mx-bootrepair_ja.ts \
-                translations/mx-bootrepair_kk.ts \
-                translations/mx-bootrepair_lt.ts \
-                translations/mx-bootrepair_nl.ts \
-                translations/mx-bootrepair_pl.ts \
-                translations/mx-bootrepair_pt.ts \
-                translations/mx-bootrepair_pt_BR.ts \
-                translations/mx-bootrepair_ro.ts \
-                translations/mx-bootrepair_ru.ts \
-                translations/mx-bootrepair_sk.ts \
-                translations/mx-bootrepair_sv.ts \
-                translations/mx-bootrepair_tr.ts \
-                translations/mx-bootrepair_uk.ts
+TRANSLATIONS += translations/mx-welcome_am.ts \
+                translations/mx-welcome_ca.ts \
+                translations/mx-welcome_cs.ts \
+                translations/mx-welcome_de.ts \
+                translations/mx-welcome_el.ts \
+                translations/mx-welcome_es.ts \
+                translations/mx-welcome_fr.ts \
+                translations/mx-welcome_hu.ts \
+                translations/mx-welcome_it.ts \
+                translations/mx-welcome_ja.ts \
+                translations/mx-welcome_kk.ts \
+                translations/mx-welcome_lt.ts \
+                translations/mx-welcome_nl.ts \
+                translations/mx-welcome_pl.ts \
+                translations/mx-welcome_pt.ts \
+                translations/mx-welcome_pt_BR.ts \
+                translations/mx-welcome_ro.ts \
+                translations/mx-welcome_ru.ts \
+                translations/mx-welcome_sk.ts \
+                translations/mx-welcome_sv.ts \
+                translations/mx-welcome_tr.ts \
+                translations/mx-welcome_uk.ts
 
 RESOURCES += \
     images.qrc
