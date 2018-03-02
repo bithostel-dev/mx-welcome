@@ -59,7 +59,8 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_sk.ts \
                 translations/mx-welcome_sv.ts \
                 translations/mx-welcome_tr.ts \
-                translations/mx-welcome_uk.ts
+                translations/mx-welcome_uk.ts \
+                translations/mx-welcome_zh_TW.ts
 
 RESOURCES += \
     images.qrc
