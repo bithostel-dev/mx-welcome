@@ -1,10 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="sk" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="am" version="2.1">
 <context>
     <name>QApplication</name>
     <message>
         <location filename="main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
-        <translation>Tento program musíte spustiť ako normálny užívateľ.</translation>
+        <translation>እርስዎ ይህን ፕሮግራም እንደ መደበኛ ተጠቃሚ ማስኬድ አለብዎት</translation>
     </message>
 </context>
 <context>
@@ -15,42 +15,42 @@
         <location filename="mxwelcome.cpp" line="108"/>
         <location filename="mxwelcome.cpp" line="115"/>
         <source>MX Welcome</source>
-        <translation>MX Vitajte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="55"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Vitajte v MX Linuxe, rýchlom, prateľskom a stabilnom operačnom systéme, ktorý je nabitý úžasnými programami a podporovaný skvelou komunitou. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="113"/>
         <source>Users Manual</source>
-        <translation>Užívateľský manuál</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="164"/>
         <source>Forums</source>
-        <translation>Fóra</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="215"/>
         <source>Videos</source>
-        <translation>Videá</translation>
+        <translation>ቪዲዮ</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="247"/>
         <source>Wiki</source>
-        <translation>Wiki</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="331"/>
         <source>Tools</source>
-        <translation>Nástroje</translation>
+        <translation>መሳሪያዎች</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="370"/>
         <source>Contribute</source>
-        <translation>Prispejte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="415"/>
@@ -60,7 +60,7 @@
     <message>
         <location filename="mxwelcome.ui" line="441"/>
         <source>Popular Apps</source>
-        <translation>Populárne aplikácie</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="464"/>
@@ -70,22 +70,22 @@
     <message>
         <location filename="mxwelcome.ui" line="575"/>
         <source>Login Info</source>
-        <translation>Login Info</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="595"/>
         <source>Show this dialog at start up</source>
-        <translation>Ukázať toto okno pri štarte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="653"/>
         <source>About this application</source>
-        <translation>O tejto aplikácii</translation>
+        <translation>ስለዚህ መተግበሪያ</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="656"/>
         <source>About...</source>
-        <translation>O Programe</translation>
+        <translation>ስለ...</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="663"/>
@@ -95,12 +95,12 @@
     <message>
         <location filename="mxwelcome.ui" line="717"/>
         <source>Quit application</source>
-        <translation>Zatvoriť aplikáciu</translation>
+        <translation>መተግበሪያ ማጥፊያ</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="720"/>
         <source>Close</source>
-        <translation>Zatvoriť</translation>
+        <translation>መዝጊያ</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="727"/>
@@ -110,32 +110,32 @@
     <message>
         <location filename="mxwelcome.cpp" line="107"/>
         <source>About MX Welcome</source>
-        <translation>O programe MX Vitajte</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="108"/>
         <source>Version: </source>
-        <translation>Verzia:</translation>
+        <translation>እትም</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="109"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
-        <translation>Program pre zobrazenie uvítacej obrazovky MX Linux</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="111"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>የ ቅጂ መብት (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="112"/>
         <source>License</source>
-        <translation>Licencia</translation>
+        <translation>ፍቃድ</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="113"/>
         <source>Cancel</source>
-        <translation>Zrušiť</translation>
+        <translation>መሰረዣ</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="181"/>

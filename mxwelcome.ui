@@ -412,7 +412,7 @@
          <enum>Qt::NoFocus</enum>
         </property>
         <property name="text">
-         <string>Tweak</string>
+         <string>Tweak (Panel, etc...)</string>
         </property>
         <property name="icon">
          <iconset resource="images.qrc">
@@ -657,8 +657,7 @@
        </property>
        <property name="icon">
         <iconset theme="help-about">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+B</string>
@@ -722,8 +721,7 @@
        </property>
        <property name="icon">
         <iconset theme="window-close">
-         <normaloff/>
-        </iconset>
+         <normaloff>.</normaloff>.</iconset>
        </property>
        <property name="shortcut">
         <string>Alt+N</string>

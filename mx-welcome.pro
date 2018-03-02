@@ -38,12 +38,14 @@ HEADERS  += mxwelcome.h \
 
 FORMS    += mxwelcome.ui
 
-TRANSLATIONS += translations/mx-welcome_ca.ts \
+TRANSLATIONS += translations/mx-welcome_am.ts \
+                translations/mx-welcome_ca.ts \
                 translations/mx-welcome_cs.ts \
                 translations/mx-welcome_de.ts \
                 translations/mx-welcome_el.ts \
                 translations/mx-welcome_es.ts \
                 translations/mx-welcome_fr.ts \
+                translations/mx-welcome_hu.ts \
                 translations/mx-welcome_it.ts \
                 translations/mx-welcome_ja.ts \
                 translations/mx-welcome_kk.ts \
@@ -51,11 +53,14 @@ TRANSLATIONS += translations/mx-welcome_ca.ts \
                 translations/mx-welcome_nl.ts \
                 translations/mx-welcome_pl.ts \
                 translations/mx-welcome_pt.ts \
+                translations/mx-welcome_pt_BR.ts \
                 translations/mx-welcome_ro.ts \
                 translations/mx-welcome_ru.ts \
                 translations/mx-welcome_sk.ts \
                 translations/mx-welcome_sv.ts \
-                translations/mx-welcome_tr.ts
+                translations/mx-welcome_tr.ts \
+                translations/mx-welcome_uk.ts \
+                translations/mx-welcome_zh_TW.ts
 
 RESOURCES += \
     images.qrc
