@@ -55,7 +55,7 @@
     <message>
         <location filename="mxwelcome.ui" line="415"/>
         <source>Tweak (Panel, etc...)</source>
-        <translation type="unfinished"/>
+        <translation>Ajustar (Painel, etc...)</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="441"/>

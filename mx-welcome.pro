@@ -44,7 +44,10 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_de.ts \
                 translations/mx-welcome_el.ts \
                 translations/mx-welcome_es.ts \
+                translations/mx-welcome_fi.ts \
                 translations/mx-welcome_fr.ts \
+                translations/mx-welcome_hi.ts \
+                translations/mx-welcome_hr.ts \
                 translations/mx-welcome_hu.ts \
                 translations/mx-welcome_it.ts \
                 translations/mx-welcome_ja.ts \

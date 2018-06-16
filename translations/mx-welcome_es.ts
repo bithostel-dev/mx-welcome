@@ -15,7 +15,7 @@
         <location filename="mxwelcome.cpp" line="108"/>
         <location filename="mxwelcome.cpp" line="115"/>
         <source>MX Welcome</source>
-        <translation>MX Bienvenida</translation>
+        <translation>MX Welcome</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="55"/>

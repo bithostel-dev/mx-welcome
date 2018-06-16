@@ -145,7 +145,7 @@
     <message>
         <location filename="mxwelcome.cpp" line="182"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>NomeUtente di Default:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Password di Default di demo:  &lt;b&gt;demo&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="183"/>

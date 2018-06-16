@@ -140,7 +140,7 @@
     <message>
         <location filename="mxwelcome.cpp" line="181"/>
         <source>Live Login Info</source>
-        <translation>直播版登入資訊</translation>
+        <translation>現場版登入資訊</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="182"/>

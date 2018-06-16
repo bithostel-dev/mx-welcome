@@ -4,7 +4,7 @@
     <message>
         <location filename="main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
-        <translation type="unfinished"/>
+        <translation>Você deve rodar este programa como usuário normal.</translation>
     </message>
 </context>
 <context>

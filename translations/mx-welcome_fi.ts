@@ -1,10 +1,10 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="ru" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="fi" version="2.1">
 <context>
     <name>QApplication</name>
     <message>
         <location filename="main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
-        <translation>Вы должны запустить эту программу как обычный пользователь.</translation>
+        <translation>Sinun täytyy suorittaa tämä ohjelma tavallisena käyttäjänä.</translation>
     </message>
 </context>
 <context>
@@ -15,27 +15,27 @@
         <location filename="mxwelcome.cpp" line="108"/>
         <location filename="mxwelcome.cpp" line="115"/>
         <source>MX Welcome</source>
-        <translation>MX Приветствие</translation>
+        <translation>MX Tervetuloa</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="55"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Добро пожаловать в MX Linux - быструю, дружественную и стабильную ОС, которая загружается с удивительными инструментами и поддерживается большим сообществом. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Tervetuloa MX Linuxiin, nopeaan, helppokäyttöiseen, ja vakaaseen käyttöjärjestelmään joka on täynnä mahtavia työvälineitä sekä loistavan yhteisön tukema. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="113"/>
         <source>Users Manual</source>
-        <translation>Руководство пользователя</translation>
+        <translation>Käyttöopas</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="164"/>
         <source>Forums</source>
-        <translation>Форумы</translation>
+        <translation>Keskustelufoorumit</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="215"/>
         <source>Videos</source>
-        <translation>Видео</translation>
+        <translation>Videot</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="247"/>
@@ -45,22 +45,22 @@
     <message>
         <location filename="mxwelcome.ui" line="331"/>
         <source>Tools</source>
-        <translation>Инструменты</translation>
+        <translation>Työkalut</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="370"/>
         <source>Contribute</source>
-        <translation>Поддержать</translation>
+        <translation>Osallistu</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="415"/>
         <source>Tweak (Panel, etc...)</source>
-        <translation>Настройка (панели и т.п.)</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="441"/>
         <source>Popular Apps</source>
-        <translation>Популярные приложения</translation>
+        <translation>Suositut sovellukset</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="464"/>
@@ -70,22 +70,22 @@
     <message>
         <location filename="mxwelcome.ui" line="575"/>
         <source>Login Info</source>
-        <translation>Информация о входе</translation>
+        <translation>Kirjautumistiedot</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="595"/>
         <source>Show this dialog at start up</source>
-        <translation>Показывать этот диалог при запуске</translation>
+        <translation>Näytä tämä ikkuna käynnistyksen yhteydessä</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="653"/>
         <source>About this application</source>
-        <translation>Об этом приложении</translation>
+        <translation>Tietoja tästä sovelluksesta</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="656"/>
         <source>About...</source>
-        <translation>O...</translation>
+        <translation>Tietoja...</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="663"/>
@@ -95,12 +95,12 @@
     <message>
         <location filename="mxwelcome.ui" line="717"/>
         <source>Quit application</source>
-        <translation>Выйти из приложения</translation>
+        <translation>Sulje sovellus</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="720"/>
         <source>Close</source>
-        <translation>Закрыть</translation>
+        <translation>Sulje</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="727"/>
@@ -110,47 +110,47 @@
     <message>
         <location filename="mxwelcome.cpp" line="107"/>
         <source>About MX Welcome</source>
-        <translation>О программе MX Приветствие</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="108"/>
         <source>Version: </source>
-        <translation>Версия:</translation>
+        <translation>Versio: </translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="109"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
-        <translation>Программа для показа экрана приветствия в MX Linux</translation>
+        <translation>Ohjelma MX Linuxin tervetuloikkunan näyttämiseen</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="111"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Авторское право (c) MX Linux</translation>
+        <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="112"/>
         <source>License</source>
-        <translation>Лицензия</translation>
+        <translation>Lisenssi</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="113"/>
         <source>Cancel</source>
-        <translation>Отмена</translation>
+        <translation>Peruuta</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="181"/>
         <source>Live Login Info</source>
-        <translation>Информация о входе в Live сеанс</translation>
+        <translation>Livekirjautumisen tiedot</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="182"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
-        <translation>Предустановленное имя пользователя: &lt;b&gt;demo&lt;/b&gt;&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;его пароль: &lt;b&gt;demo&lt;/b&gt;</translation>
+        <translation>Oletuskäyttäjätunnus livetilassa:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Oletussalasana livetilassa:  &lt;b&gt;demo&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="183"/>
         <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
-        <translation>&lt;b&gt;Рут-пользователя&lt;/b&gt; пароль: &lt;b&gt;root&lt;/b&gt;&lt;/p&gt;</translation>
+        <translation>&lt;b&gt;Pääkäyttäjä&lt;/b&gt; Salasana:  &lt;b&gt;pääkäyttäjä&lt;/b&gt;&lt;/p&gt; </translation>
     </message>
 </context>
 </TS>
