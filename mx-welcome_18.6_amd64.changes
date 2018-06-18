@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Mon, 18 Jun 2018 18:29:22 -0400
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 18.6
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (18.6) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ a7fe44f4419c181eaf946927f779340376f3ea5f 1153 mx-welcome_18.6.dsc
+ 74c2911c159cde1c214fd40170eacff172fd2988 58136 mx-welcome_18.6.tar.xz
+ 572938b324320e059d42eee4eafadd2c15b99d80 61258 mx-welcome_18.6_amd64.deb
+Checksums-Sha256:
+ 31a760d1ff37cc6531772b321080781d1bbd17892199a98100cefd7f33c20dd3 1153 mx-welcome_18.6.dsc
+ bf1616e5d6d4c821a51688c93ee68ce8bebd09235f73b524e052b92168a83e94 58136 mx-welcome_18.6.tar.xz
+ 237ec0f151b31add7f012efed0fe4cbccbf058cc35be02c7f0da7f20c29f219b 61258 mx-welcome_18.6_amd64.deb
+Files:
+ 613f00e703537624a2acbafda25b9f46 1153 admin optional mx-welcome_18.6.dsc
+ cb8099ce1fb5fd3ad493f6ff7fb1155f 58136 admin optional mx-welcome_18.6.tar.xz
+ 5515c9b0752317eea9aa2087e0529e72 61258 admin optional mx-welcome_18.6_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlsoM18THGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumM6ZB/0YGRyMg4BJkoHQX2595scOjQxbDO0q
+675uOQOHLpfBlTAxuiHCEITQzaWlQP+1yU5bSZKW+iuFVseWzwykCQhHnHIRj2W7
+FZ8Tr/WkpTf5d527Z719nhOqI8m7JSEq87cSzX3WFgaKpCWHzhf3Oc6iNBOV/knG
+7lcMjsvNgxG9NI4l1+FGCR2Zt29FbQrPxlSL7FM4LXaspDSSUPnRrUd6MCqFTg81
+ZgZYDhnqQl3ILynu3mzP6YuSWp0gczOFunxzY/Q3+Ziy6S0E8uqF4ueqFq7LNSf/
+FCMAe/UzjmlXmkKd1y6Gk6LY3QNeR2+REDE+3XLWXI/RVllo4RgiBehW
+=Y2UW
+-----END PGP SIGNATURE-----
