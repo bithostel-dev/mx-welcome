@@ -86,8 +86,7 @@ void mxwelcome::disconnectAll()
 // Get version of the program
 QString mxwelcome::getVersion(QString name)
 {
-    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return runCmd(cmd).output;
+    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
 // set proc and timer connections
