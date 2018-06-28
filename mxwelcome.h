@@ -60,10 +60,6 @@ public:
 
     void setup();
 
-public slots:
-    void setConnections();    
-    void disconnectAll();
-
 private slots:
     void on_buttonAbout_clicked();
     void on_checkBox_clicked(bool checked);
@@ -74,9 +70,7 @@ private slots:
     void on_buttonVideo_clicked();
     void on_buttonContribute_clicked();
     void on_buttonLogininfo_clicked();
-
     void on_buttonPanelOrient_clicked();
-
     void on_buttonPackageInstall_clicked();
 
 private:
@@ -84,5 +78,5 @@ private:
 };
 
 
-#endif // MXSNAPSHOT_H
+#endif // MXWELCOME_H
 

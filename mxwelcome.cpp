@@ -29,7 +29,10 @@
 #include "ui_mxwelcome.h"
 #include "flatbutton.h"
 
+#include <QFileInfo>
+#include <QTextEdit>
 #include <QDebug>
+
 
 mxwelcome::mxwelcome(QWidget *parent) :
     QDialog(parent),
@@ -52,7 +55,6 @@ void mxwelcome::setup()
     system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
     // if running live
     QString test = runCmd("df -T / |tail -n1 |awk '{print $2}'").output;
-    qDebug() << test;
     if ( test == "aufs" || test == "overlay" ) {
         ui->checkBox->hide();
     } else {
@@ -67,33 +69,19 @@ Result mxwelcome::runCmd(QString cmd)
     QEventLoop loop;
     proc = new QProcess(this);
     proc->setReadChannelMode(QProcess::MergedChannels);
-    connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
+    connect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), &loop, &QEventLoop::quit);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
-    disconnectAll();
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
 }
 
-// disconnect all connections
-void mxwelcome::disconnectAll()
-{
-    disconnect(proc, SIGNAL(started()), 0, 0);
-    disconnect(proc, SIGNAL(finished(int)), 0, 0);
-}
 
 // Get version of the program
 QString mxwelcome::getVersion(QString name)
 {
     return runCmd("dpkg-query -f '${Version}' -W " + name).output;
-}
-
-// set proc and timer connections
-void mxwelcome::setConnections()
-{
-    connect(proc, SIGNAL(started()), SLOT(procStart()));
-    connect(proc, SIGNAL(finished(int)), SLOT(procDone(int)));
 }
 
 //// slots ////
@@ -108,11 +96,33 @@ void mxwelcome::on_buttonAbout_clicked()
                        tr("Program for displaying a welcome screen in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://www.mxlinux.org/mx\">http://www.mxlinux.org/mx</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
-    msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
-    msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
-    if (msgBox.exec() == QMessageBox::AcceptRole) {
+    QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+    btnCancel->setIcon(QIcon::fromTheme("window-close"));
+
+    msgBox.exec();
+
+    if (msgBox.clickedButton() == btnLicense) {
         QString cmd = QString("mx-viewer http://mxlinux.org/wiki/licenses/license-mx-welcome '%1'").arg(tr("MX Welcome"));
         system(cmd.toUtf8());
+    } else if (msgBox.clickedButton() == btnChangelog) {
+        QDialog *changelog = new QDialog(this);
+        changelog->resize(600, 500);
+
+        QTextEdit *text = new QTextEdit;
+        text->setReadOnly(true);
+        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
+
+        QPushButton *btnClose = new QPushButton(tr("&Close"));
+        btnClose->setIcon(QIcon::fromTheme("window-close"));
+        connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
+
+        QVBoxLayout *layout = new QVBoxLayout;
+        layout->addWidget(text);
+        layout->addWidget(btnClose);
+        changelog->setLayout(layout);
+        changelog->exec();
     }
     this->show();
 }
