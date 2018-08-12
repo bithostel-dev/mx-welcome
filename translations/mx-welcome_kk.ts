@@ -13,144 +13,154 @@
     <name>mxwelcome</name>
     <message>
         <location filename="../mxwelcome.ui" line="14"/>
-        <location filename="../mxwelcome.cpp" line="51"/>
-        <location filename="../mxwelcome.cpp" line="108"/>
-        <location filename="../mxwelcome.cpp" line="115"/>
+        <location filename="../mxwelcome.cpp" line="54"/>
+        <location filename="../mxwelcome.cpp" line="95"/>
+        <location filename="../mxwelcome.cpp" line="107"/>
         <source>MX Welcome</source>
         <translation>MX қарсы алу қолданбасы</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="55"/>
+        <location filename="../mxwelcome.ui" line="51"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MX Linux-ке қош келдіңіз! Ол - жылдам, икемді және тұрақты ОЖ, құрамында пайдалы саймандары және тамаша қоғамдастығы бар. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="113"/>
+        <location filename="../mxwelcome.ui" line="109"/>
         <source>Users Manual</source>
         <translation>Пайдаланушы нұсқаулығы</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="164"/>
+        <location filename="../mxwelcome.ui" line="160"/>
         <source>Forums</source>
         <translation>Форумдар</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="215"/>
+        <location filename="../mxwelcome.ui" line="211"/>
         <source>Videos</source>
         <translation>Видеолар</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="247"/>
+        <location filename="../mxwelcome.ui" line="243"/>
         <source>Wiki</source>
         <translation>Вики</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="331"/>
+        <location filename="../mxwelcome.ui" line="327"/>
         <source>Tools</source>
         <translation>Саймандар</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="370"/>
+        <location filename="../mxwelcome.ui" line="366"/>
         <source>Contribute</source>
         <translation>Үлес қосу</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="415"/>
+        <location filename="../mxwelcome.ui" line="411"/>
         <source>Tweak (Panel, etc...)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="441"/>
+        <location filename="../mxwelcome.ui" line="437"/>
         <source>Popular Apps</source>
         <translation>Әйгілі қолданбалар</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="464"/>
+        <location filename="../mxwelcome.ui" line="460"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;MX-17 &amp;quot;Horizon&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="575"/>
+        <location filename="../mxwelcome.ui" line="571"/>
         <source>Login Info</source>
         <translation>Логин ақпараты</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="595"/>
+        <location filename="../mxwelcome.ui" line="591"/>
         <source>Show this dialog at start up</source>
         <translation>Бұл сұхбатты жүйеге кірген кезде көрсету</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="653"/>
+        <location filename="../mxwelcome.ui" line="649"/>
         <source>About this application</source>
         <translation>Бұл қолданба жөнінде</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="656"/>
+        <location filename="../mxwelcome.ui" line="652"/>
         <source>About...</source>
         <translation>Осы туралы...</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="663"/>
+        <location filename="../mxwelcome.ui" line="659"/>
         <source>Alt+B</source>
         <translation>Alt+B</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="717"/>
+        <location filename="../mxwelcome.ui" line="713"/>
         <source>Quit application</source>
         <translation>Қолданба жұмысын аяқтау</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="720"/>
+        <location filename="../mxwelcome.ui" line="716"/>
         <source>Close</source>
         <translation>Жабу</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.ui" line="727"/>
+        <location filename="../mxwelcome.ui" line="723"/>
         <source>Alt+N</source>
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="107"/>
+        <location filename="../mxwelcome.cpp" line="94"/>
         <source>About MX Welcome</source>
         <translation>MX қарсы алу қолданбасы туралы</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="108"/>
+        <location filename="../mxwelcome.cpp" line="95"/>
         <source>Version: </source>
         <translation>Нұсқасы:</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="109"/>
+        <location filename="../mxwelcome.cpp" line="96"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
         <translation>MX Linux ішінде қарсы алу экранын көрсетуге арналған қолданба</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="111"/>
+        <location filename="../mxwelcome.cpp" line="98"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="112"/>
+        <location filename="../mxwelcome.cpp" line="99"/>
         <source>License</source>
         <translation>Лицензиясы</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="113"/>
+        <location filename="../mxwelcome.cpp" line="100"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxwelcome.cpp" line="101"/>
         <source>Cancel</source>
         <translation>Бас тарту</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="181"/>
+        <location filename="../mxwelcome.cpp" line="117"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxwelcome.cpp" line="190"/>
         <source>Live Login Info</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="182"/>
+        <location filename="../mxwelcome.cpp" line="191"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="183"/>
+        <location filename="../mxwelcome.cpp" line="192"/>
         <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
         <translation type="unfinished"></translation>
     </message>

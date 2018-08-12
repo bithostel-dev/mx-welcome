@@ -13,10 +13,6 @@
   <property name="windowTitle">
    <string>MX Welcome</string>
   </property>
-  <property name="windowIcon">
-   <iconset>
-    <normaloff>../../../usr/share/pixmaps/mx-welcome.png</normaloff>../../../usr/share/pixmaps/mx-welcome.png</iconset>
-  </property>
   <property name="sizeGripEnabled">
    <bool>false</bool>
   </property>
