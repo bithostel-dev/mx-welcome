@@ -41,6 +41,7 @@ FORMS    += mxwelcome.ui
 TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_ca.ts \
                 translations/mx-welcome_cs.ts \
+                translations/mx-welcome_da.ts \
                 translations/mx-welcome_de.ts \
                 translations/mx-welcome_el.ts \
                 translations/mx-welcome_es.ts \
@@ -60,6 +61,7 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_ro.ts \
                 translations/mx-welcome_ru.ts \
                 translations/mx-welcome_sk.ts \
+                translations/mx-welcome_sq.ts \
                 translations/mx-welcome_sv.ts \
                 translations/mx-welcome_tr.ts \
                 translations/mx-welcome_uk.ts \
