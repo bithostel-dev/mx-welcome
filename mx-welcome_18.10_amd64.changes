@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Fri, 12 Oct 2018 11:16:08 -0400
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 18.10
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (18.10) mx; urgency=medium
+ .
+   * new translations
+Checksums-Sha1:
+ 107c32958dae7040235a595cf0f6f31fdc3f0dbb 595 mx-welcome_18.10.dsc
+ 096d88541f2ede64c6358d9af1e24b28a2ddea87 59520 mx-welcome_18.10.tar.xz
+ 94acb25742661c30d60856a6e7c5f75608f144c7 493848 mx-welcome-dbgsym_18.10_amd64.deb
+ a147bf2ec15b4f7511ed74bbccec7143596a4436 9827 mx-welcome_18.10_amd64.buildinfo
+ 5db8e0e3cfbf063d001fd1ba2673a7870b533afc 61192 mx-welcome_18.10_amd64.deb
+Checksums-Sha256:
+ f0d8ce46114092b8b740d7ba93a5892b6716a1cb8d4aa31d675a5c75e2bfa558 595 mx-welcome_18.10.dsc
+ 73eb859ca6f0ef644141169f1b18c531f24f0910ed68ebe95ca628421eb9fe06 59520 mx-welcome_18.10.tar.xz
+ a64dda94bcdafaa868612e2a649baaecb432456a7b394f2b0c7436f0709e6a0e 493848 mx-welcome-dbgsym_18.10_amd64.deb
+ c71e2117ecd3d50849356f68e3d4113ee7335853d0607ab58dcf13997546bb20 9827 mx-welcome_18.10_amd64.buildinfo
+ 096e2b9ab733162ec1c187bb52e85ea0cb0870871e506bb13ce8b96ac676651d 61192 mx-welcome_18.10_amd64.deb
+Files:
+ 6a3fd0347b294d786de99ae52736bb17 595 admin optional mx-welcome_18.10.dsc
+ 3371eaa09edbc6cc3853a19553e9870f 59520 admin optional mx-welcome_18.10.tar.xz
+ 634975aedd7dc493733de4ff4f7d9108 493848 debug optional mx-welcome-dbgsym_18.10_amd64.deb
+ 918395f234ff4aad0b3dd3342a00a3ce 9827 admin optional mx-welcome_18.10_amd64.buildinfo
+ 5ee2762bc3a9462501b1984a79892fc5 61192 admin optional mx-welcome_18.10_amd64.deb
