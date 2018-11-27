@@ -50,6 +50,7 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_hi.ts \
                 translations/mx-welcome_hr.ts \
                 translations/mx-welcome_hu.ts \
+                translations/mx-welcome_is.ts \
                 translations/mx-welcome_it.ts \
                 translations/mx-welcome_ja.ts \
                 translations/mx-welcome_kk.ts \
