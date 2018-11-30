@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 30 Nov 2018 15:17:49 -0500
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 18.11
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (18.11) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 7b0e855fa00e357226bf87369a6c005399dbd0ce 1157 mx-welcome_18.11.dsc
+ 7c07a128f7701915863c30bfa3fc91e2c1bf98f3 68512 mx-welcome_18.11.tar.xz
+ 358d7e9c0af4c8213942127aeb81807b30ad5ace 11169 mx-welcome_18.11_amd64.buildinfo
+ 221890f7d1ea5bba5b866d998f09da1e03d7cfdb 63804 mx-welcome_18.11_amd64.deb
+Checksums-Sha256:
+ b51c61455f3d9383538ab813c38331532a43be20dd7deecdac2f30d28205cb9f 1157 mx-welcome_18.11.dsc
+ 7cb956389a894702dffcea6916094608e5b9a507fabce5c010e7b0a62a7c506c 68512 mx-welcome_18.11.tar.xz
+ 1888ebe797f5e3e17e7c6eb5c9ddc2df7fc9ca7d13f4f9b31c252fcf3876a3e1 11169 mx-welcome_18.11_amd64.buildinfo
+ 07386bebe99a007619dac8550be5a0fea80b62a11dfcf1197c902aaeee5ed99d 63804 mx-welcome_18.11_amd64.deb
+Files:
+ e0929732b1139b930b384b1d41bec2d3 1157 admin optional mx-welcome_18.11.dsc
+ 3521083d0ae279f0712addeee70a8998 68512 admin optional mx-welcome_18.11.tar.xz
+ c52bf28c625cb4e21cbba4caeac442b6 11169 admin optional mx-welcome_18.11_amd64.buildinfo
+ 3e2614529a53246e0edb5f1985208a9d 63804 admin optional mx-welcome_18.11_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlwBm7QTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumH7PB/9VP6MUXJaE7xzNBoLBbDVWg+dTJqEr
+cJfi2m8UxCTc07FavdKG7f1Or5HCmgVxEPZQlMPTejAhlnM+pKTPvqwL/qfTGErc
+nZHtloJSnHGEQ/ILNVhbWAsW4fq8EQ3C9vBrk/zc75rJ5GTOoC62Jbw42gbGbwIR
+zve2aXEJZSeaVnZMHVpZBeUQq0xoyZE/V5FT/jiI5U0PLki3xGwf44Ab6Ymj4R8s
+ax9q/nRtpgIUYcitJicHlsVEAqey9vUIYUt4YJ7l8Llz91w4SNR4oFjX5tiJjZG2
+HVDC/HTyiAUgSDeywfRKg8pyXof2dAFgCUHdclzJlbv4EN8U9elkj2+k
+=cmAp
+-----END PGP SIGNATURE-----
