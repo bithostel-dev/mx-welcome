@@ -206,3 +206,18 @@ void mxwelcome::on_buttonPackageInstall_clicked()
     system("su-to-root -X -c mx-packageinstaller");
     this->show();
 }
+
+void mxwelcome::on_buttonCodecs_clicked()
+{
+    this->hide();
+    system("su-to-root -X -c mx-codecs");
+    this->show();
+}
+
+void mxwelcome::on_buttonPanelOrient_2_clicked()
+{
+    this->hide();
+    system("exo-open --launch WebBrowser https://mxlinux.org/wiki/help-files/mx-faqs");
+    this->show();
+
+}
