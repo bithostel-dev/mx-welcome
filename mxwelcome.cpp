@@ -148,9 +148,7 @@ void mxwelcome::on_buttonTools_clicked()
 // Launch Manual in browser
 void mxwelcome::on_buttonManual_clicked()
 {
-    this->hide();
-    system("mx-manual");
-    this->show();
+    system("disown mx-manual");
 }
 
 // Launch Forum in browser
