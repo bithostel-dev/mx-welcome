@@ -140,31 +140,25 @@ void mxwelcome::on_checkBox_clicked(bool checked)
 // Start MX-Tools
 void mxwelcome::on_buttonTools_clicked()
 {
-    this->hide();
-    system("mx-tools");
-    this->show();
+    system("mx-tools&");
 }
 
 // Launch Manual in browser
 void mxwelcome::on_buttonManual_clicked()
 {
-    system("disown mx-manual");
+    system("mx-manual&");
 }
 
 // Launch Forum in browser
 void mxwelcome::on_buttonForum_clicked()
 {
-    this->hide();
     system("exo-open --launch WebBrowser http://forum.mxlinux.org/index.php");
-    this->show();
 }
 
 // Launch Wiki in browser
 void mxwelcome::on_buttonWiki_clicked()
 {
-    this->hide();
     system("exo-open --launch WebBrowser http://www.mxlinux.org/wiki");
-    this->show();
 }
 
 // Launch Video links in browser
@@ -176,46 +170,33 @@ void mxwelcome::on_buttonVideo_clicked()
 // Launch Contribution page
 void mxwelcome::on_buttonContribute_clicked()
 {
-    this->hide();
     system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
-    this->show();
 }
 
 // Launch Help in browser
 void mxwelcome::on_buttonLogininfo_clicked()
 {
-    this->hide();
     QMessageBox::information(this, tr("Live Login Info"), "<p align=\"center\">" +
                        tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
                        tr("<b>Root</b> Password:  <b>root</b></p> "));
-    this->show();
 }
 
 void mxwelcome::on_buttonPanelOrient_clicked()
 {
-    this->hide();
-    system("mx-tweak");
-    this->show();
+    system("mx-tweak&");
 }
 
 void mxwelcome::on_buttonPackageInstall_clicked()
 {
-    this->hide();
-    system("su-to-root -X -c mx-packageinstaller");
-    this->show();
+    system("su-to-root -X -c mx-packageinstaller&");
 }
 
 void mxwelcome::on_buttonCodecs_clicked()
 {
-    this->hide();
-    system("su-to-root -X -c mx-codecs");
-    this->show();
+    system("su-to-root -X -c mx-codecs&");
 }
 
 void mxwelcome::on_buttonPanelOrient_2_clicked()
 {
-    this->hide();
     system("exo-open --launch WebBrowser https://mxlinux.org/wiki/help-files/mx-faqs");
-    this->show();
-
 }
