@@ -1,3 +1,9 @@
+mx-welcome (18.12.06) mx; urgency=medium
+
+  * updates to background launching of settings apps 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Fri, 07 Dec 2018 18:08:32 -0500
+
 mx-welcome (18.12.05) mx; urgency=medium
 
   * mx 18 
