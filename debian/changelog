@@ -1,3 +1,9 @@
+mx-welcome (18.12.07) mx; urgency=medium
+
+  * displays login info on window
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 09 Dec 2018 12:46:25 -0500
+
 mx-welcome (18.12.06) mx; urgency=medium
 
   * updates to background launching of settings apps 

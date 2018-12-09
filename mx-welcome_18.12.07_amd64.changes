@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 09 Dec 2018 12:46:25 -0500
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 18.12.07
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (18.12.07) mx; urgency=medium
+ .
+   * displays login info on window
+Checksums-Sha1:
+ c4aae32d1ff0ead43c97d541fa57d46c0cc84cdd 1169 mx-welcome_18.12.07.dsc
+ be2f3c58d8ed441070d2b73c33e48e31a10ca645 68648 mx-welcome_18.12.07.tar.xz
+ 38b2edb62fc969594f573e1fb19492644f0eb8a2 493254 mx-welcome-dbgsym_18.12.07_amd64.deb
+ 5bc92362dad58996145d27ca99d1b117d7a4df2f 10454 mx-welcome_18.12.07_amd64.buildinfo
+ 40d9d7f7a30e03cbe5cb3d750c377f0f0ba007cc 69466 mx-welcome_18.12.07_amd64.deb
+Checksums-Sha256:
+ 748d8205d46b209361d480790e1d09ecb182b1b5a4c64cec623d18f3ffa97d39 1169 mx-welcome_18.12.07.dsc
+ 2cf86e271d7d3f79563d25a0e42b57ca512ca6e3e8d567fd6e1a45f5ff5bd5ff 68648 mx-welcome_18.12.07.tar.xz
+ d9da53f35e2a151bca3ba2cf321597e2c86437c3560df2eac5a2bf019b57fcdb 493254 mx-welcome-dbgsym_18.12.07_amd64.deb
+ 76c9526ab8d21a2f8761ec51d46af2e164ac0a0c2bc9b156cff11b28f6da6dc7 10454 mx-welcome_18.12.07_amd64.buildinfo
+ de96e99b0cf3aa2b8de53e2cc239eb37f1098c7ad68d5466958abd3aba6e9e28 69466 mx-welcome_18.12.07_amd64.deb
+Files:
+ 6661fcbed5d5fdd231097874f5d3700b 1169 admin optional mx-welcome_18.12.07.dsc
+ d70e0fd527cf8c9fcf6d8b00c3884148 68648 admin optional mx-welcome_18.12.07.tar.xz
+ 6a4d1683c98d75af6cefe1bc8fad9ab0 493254 debug optional mx-welcome-dbgsym_18.12.07_amd64.deb
+ 6dd256a7a008618f0eb920bb9cc6fe3a 10454 admin optional mx-welcome_18.12.07_amd64.buildinfo
+ 2ccc6b61cecd80be85fe9d3277b1e957 69466 admin optional mx-welcome_18.12.07_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlwNWRgTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumNuvB/9fA/6xleyP1HkqLLoApVlW83ssNvN5
+kZ+dTG2OJuuAgkZfQJFEErSEIwS4GPD96ub8NSsgwpMbE0uB9aR/nIfhduziH47X
+4cL05Tm5dw4xiTiBkHjTqdPsx1pr4OWkUsxWYhsz7mDYbvE5+5hy4oDvbQIWPdnE
+n5FvBG9UFIS+fmtIII48mJlTfTWUrSRAKu7u2qcJGU9B+bS9CNmuEGxlTzJhH2rN
+g7LeQp09llPv/KV6rRJpjMmH0zwfUebmugjN1xeFQ2W5WomH5U/E+IUyN5qMjUtw
+9bqS3ZerSmBa/FA7TbgHyk+sLer47H1YMrctDOrKK1GRP08yMxBJcgvf
+=RBZb
+-----END PGP SIGNATURE-----

@@ -53,13 +53,17 @@ void mxwelcome::setup()
     version = getVersion("mx-welcome");
     this->setWindowTitle(tr("MX Welcome"));
     system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
+    ui->labelLoginInfo->setText("<p align=\"center\">" +
+                                tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
+                                tr("<b>Root</b> Password:  <b>root</b></p> "));
     // if running live
     QString test = runCmd("df -T / |tail -n1 |awk '{print $2}'").output;
     if ( test == "aufs" || test == "overlay" ) {
         ui->checkBox->hide();
     } else {
-        ui->buttonLogininfo->hide();
+        ui->labelLoginInfo->hide();
     }
+
     this->adjustSize();
 }
 
@@ -171,14 +175,6 @@ void mxwelcome::on_buttonVideo_clicked()
 void mxwelcome::on_buttonContribute_clicked()
 {
     system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
-}
-
-// Launch Help in browser
-void mxwelcome::on_buttonLogininfo_clicked()
-{
-    QMessageBox::information(this, tr("Live Login Info"), "<p align=\"center\">" +
-                       tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
-                       tr("<b>Root</b> Password:  <b>root</b></p> "));
 }
 
 void mxwelcome::on_buttonPanelOrient_clicked()
