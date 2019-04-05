@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Fri, 05 Apr 2019 12:02:33 -0400
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 19.4
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (19.4) mx; urgency=medium
+ .
+   * updated translations
+Checksums-Sha1:
+ 66a6a6e969d4b234853e2e26bd0d3e0956af6374 1153 mx-welcome_19.4.dsc
+ ee60b79ef51fe67078dc0de7a73e39a289e360b0 70048 mx-welcome_19.4.tar.xz
+ 1f5fc3fecae798aa9b32c6ee5881797936de19e8 11323 mx-welcome_19.4_amd64.buildinfo
+ 9f5613c2a303149fecdd4dd1ccc2f627698c4af8 74164 mx-welcome_19.4_amd64.deb
+Checksums-Sha256:
+ 98db76f6971d188f0dad30cbc1d2af15bdc8051af0ed53dfb5b5d401dd97d17c 1153 mx-welcome_19.4.dsc
+ 3819ad5184dcb6e0ff6328de1de77e51669df189b12620c25a387e2a87d3cf9d 70048 mx-welcome_19.4.tar.xz
+ a4adf8a8785362d056e048bb2225137d88792f25db72db8f5a69d60597516bd2 11323 mx-welcome_19.4_amd64.buildinfo
+ 6098c99debf1b41d697e95f0eeccc429ec6e6fed87dc2dfc62d3696069edf206 74164 mx-welcome_19.4_amd64.deb
+Files:
+ b4954611893953af24e63659ae38774f 1153 admin optional mx-welcome_19.4.dsc
+ 6c7bfb5a1abcf65708313932019779ea 70048 admin optional mx-welcome_19.4.tar.xz
+ d1d0b202b8afd8e11e991d35c87802fc 11323 admin optional mx-welcome_19.4_amd64.buildinfo
+ 78e96b9098a7d51f6eb005ce79ec1e34 74164 admin optional mx-welcome_19.4_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAlynfJETHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumA2xB/4sUvilMgVwGymBMs3RLwgd9MPIrLL0
+YU37UXdMoUU6BzeFkQQzAE08bDkFlobGgHfB+jvuMeU4pr9UVzkDdbpd8kXdtNmG
+UFhhH/FkyTKI2YQHzaum6KBR0zxYHbk0G5YQbsak9SsD9YdgmwU2sXe4PgmYwUzy
+vMgOQbILKam9ymxUtYTbOVzrOTqE+Xy3sAUSVG8Z9/MOb+28TES0Ftzoj4L5qyma
+qMpyh17+vZ0inalP+mWn/VIbxbDVzWK6+syueS57vX45riig4AZWP4DiLi34ouPr
+MbZ2JI6yCbdHuDVvec7WPMI8DQwjAWHaxcGdyo919nB2bkMx+1McXfpp
+=OwAn
+-----END PGP SIGNATURE-----
