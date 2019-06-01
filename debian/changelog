@@ -1,3 +1,10 @@
+mx-welcome (19.6) mx; urgency=medium
+
+  * added mx-welcome-data-depend
+  * now reads icon and distro name/version from mx-welcome.conf data file 
+
+ -- Dolphin Oracle <dolphinoracle@gmail.com>  Sat, 01 Jun 2019 14:25:04 -0400
+
 mx-welcome (19.4) mx; urgency=medium
 
   * updated translations

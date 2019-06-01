@@ -81,7 +81,7 @@ void mxwelcome::setup()
     QString VIDEOS=settings.value("VIDEOS").toString();
     QString WIKI=settings.value("WIKI").toString();
 
-    ui->labelTitle->setText(tr("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">%1 &quot;%2&quot;</span></p></body></html>").arg("MX-19").arg("duck"));
+    ui->labelTitle->setText(tr("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">%1 &quot;%2&quot;</span></p></body></html>").arg(DISTRO).arg(CODENAME));
 
     //setup icons
     ui->buttonCodecs->setIcon(QIcon(CODECS));
