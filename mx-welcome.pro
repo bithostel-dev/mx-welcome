@@ -82,7 +82,6 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_zh_CN.ts \
                 translations/mx-welcome_zh_TW.ts
 
-RESOURCES += \
-    images.qrc
+RESOURCES +=
 
 

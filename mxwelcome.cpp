@@ -32,6 +32,7 @@
 #include <QFileInfo>
 #include <QTextEdit>
 #include <QDebug>
+#include <QSettings>
 
 
 mxwelcome::mxwelcome(QWidget *parent) :
@@ -63,6 +64,37 @@ void mxwelcome::setup()
     } else {
         ui->labelLoginInfo->hide();
     }
+
+    // setup title block & icons
+    QSettings settings("/usr/share/mx-welcome/mx-welcome.conf", QSettings::NativeFormat);
+    QString DISTRO=settings.value("DISTRO").toString();
+    QString CODENAME=settings.value("CODENAME").toString();
+    QString CONTRIBUTE=settings.value("CONTRIBUTE").toString();
+    QString CODECS=settings.value("CODECS").toString();
+    QString FAQ=settings.value("FAQ").toString();
+    QString FORUMS=settings.value("FORUMS").toString();
+    QString LOGO=settings.value("LOGO").toString();
+    QString PACKAGEINSTALLER=settings.value("PACKAGEINSTALLER").toString();
+    QString PANELORIENT=settings.value("PANELORIENT").toString();
+    QString TOOLS=settings.value("TOOLS").toString();
+    QString MANUAL=settings.value("MANUAL").toString();
+    QString VIDEOS=settings.value("VIDEOS").toString();
+    QString WIKI=settings.value("WIKI").toString();
+
+    ui->labelTitle->setText(tr("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">%1 &quot;%2&quot;</span></p></body></html>").arg("MX-19").arg("duck"));
+
+    //setup icons
+    ui->buttonCodecs->setIcon(QIcon(CODECS));
+    ui->buttonContribute->setIcon(QIcon(CONTRIBUTE));
+    ui->buttonFAQ->setIcon(QIcon(FAQ));
+    ui->buttonForum->setIcon(QIcon(FORUMS));
+    ui->labelMX->setPixmap(QPixmap(LOGO));
+    ui->buttonPackageInstall->setIcon(QIcon(PACKAGEINSTALLER));
+    ui->buttonPanelOrient->setIcon(QIcon(PANELORIENT));
+    ui->buttonTools->setIcon(QIcon(TOOLS));
+    ui->buttonManual->setIcon(QIcon(MANUAL));
+    ui->buttonVideo->setIcon(QIcon(VIDEOS));
+    ui->buttonWiki->setIcon(QIcon(WIKI));
 
     this->adjustSize();
 }
@@ -192,7 +224,7 @@ void mxwelcome::on_buttonCodecs_clicked()
     system("su-to-root -X -c mx-codecs&");
 }
 
-void mxwelcome::on_buttonPanelOrient_2_clicked()
+void mxwelcome::on_buttonFAQ_clicked()
 {
     system("exo-open --launch WebBrowser https://mxlinux.org/wiki/help-files/mx-faqs");
 }
