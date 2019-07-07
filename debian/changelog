@@ -1,3 +1,9 @@
+mx-welcome (19.7) mx; urgency=medium
+
+  * fix windows buttons for Buster
+
+ -- Adrian <adrian@mxlinux.org>  Sun, 07 Jul 2019 14:30:24 -0400
+
 mx-welcome (19.6) mx; urgency=medium
 
   * added mx-welcome-data-depend

@@ -13,9 +13,9 @@
     <name>mxwelcome</name>
     <message>
         <location filename="../mxwelcome.ui" line="14"/>
-        <location filename="../mxwelcome.cpp" line="54"/>
-        <location filename="../mxwelcome.cpp" line="99"/>
-        <location filename="../mxwelcome.cpp" line="111"/>
+        <location filename="../mxwelcome.cpp" line="56"/>
+        <location filename="../mxwelcome.cpp" line="132"/>
+        <location filename="../mxwelcome.cpp" line="144"/>
         <source>MX Welcome</source>
         <translation>MX Welkom</translation>
     </message>
@@ -110,52 +110,57 @@
         <translation>Alt+N</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="57"/>
+        <location filename="../mxwelcome.cpp" line="59"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
         <translation>Standaard gebruikersnaam:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Standaard demo wachtwoord:  &lt;b&gt;demo&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="58"/>
+        <location filename="../mxwelcome.cpp" line="60"/>
         <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
         <translation>&lt;b&gt;Root&lt;/b&gt; Wachtwoord:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="98"/>
+        <location filename="../mxwelcome.cpp" line="85"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;%1 &amp;quot;%2&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mxwelcome.cpp" line="131"/>
         <source>About MX Welcome</source>
         <translation>Over MX Welkom</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="99"/>
+        <location filename="../mxwelcome.cpp" line="132"/>
         <source>Version: </source>
         <translation>Versie:</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="100"/>
+        <location filename="../mxwelcome.cpp" line="133"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
         <translation>Programma om een welkomstscherm te laten zien in MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="102"/>
+        <location filename="../mxwelcome.cpp" line="135"/>
         <source>Copyright (c) MX Linux</source>
         <translation>Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="103"/>
+        <location filename="../mxwelcome.cpp" line="136"/>
         <source>License</source>
         <translation>Licentie</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="104"/>
+        <location filename="../mxwelcome.cpp" line="137"/>
         <source>Changelog</source>
         <translation>Changelog</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="105"/>
+        <location filename="../mxwelcome.cpp" line="138"/>
         <source>Cancel</source>
         <translation>Cancel</translation>
     </message>
     <message>
-        <location filename="../mxwelcome.cpp" line="121"/>
+        <location filename="../mxwelcome.cpp" line="154"/>
         <source>&amp;Close</source>
         <translation>&amp;Close</translation>
     </message>

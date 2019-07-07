@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 07 Jul 2019 14:30:24 -0400
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 19.7
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (19.7) mx; urgency=medium
+ .
+   * fix windows buttons for Buster
+Checksums-Sha1:
+ c91861e87b5a176fb1e3d15973978335d47e5200 1153 mx-welcome_19.7.dsc
+ c5cbea72c79da735207607a5283709945246c229 70600 mx-welcome_19.7.tar.xz
+ 2ec7f17a29a5caf189c532cad590308709e0ca5a 500182 mx-welcome-dbgsym_19.7_amd64.deb
+ f286813390737a0dfbd0655dbe6e81ce287e90f8 11179 mx-welcome_19.7_amd64.buildinfo
+ 8286ab413ab0c39f8772b6dea4fcf91dc4ba30df 41354 mx-welcome_19.7_amd64.deb
+Checksums-Sha256:
+ b14c0d257cd2fefc8e6a3ec34c8fcf72d7fcd0f209dd09aa07cda5881fed0cba 1153 mx-welcome_19.7.dsc
+ bd9c2d393046d77dfd43179ac64871670ee7b9a21cb848a2b1e6126381e5879f 70600 mx-welcome_19.7.tar.xz
+ 95c8bdad76e6bed29259eb51ed601d9ce65eb6b958d7e51965b30b26cb629f46 500182 mx-welcome-dbgsym_19.7_amd64.deb
+ de7fe693859fafe899b18a59f88314ffb0e3cd21480972c8d260b76bfba73c12 11179 mx-welcome_19.7_amd64.buildinfo
+ 58a435a556f9c4856da27879281e95efcddcb23d69d4f3eb47b413ba24630507 41354 mx-welcome_19.7_amd64.deb
+Files:
+ 2babd4da1a429900ba85f4f0eac635f1 1153 admin optional mx-welcome_19.7.dsc
+ 69b8a2b2d6995b34424a0a43b31a7c04 70600 admin optional mx-welcome_19.7.tar.xz
+ 6bcb8c84687c7cac0aff6df469174c71 500182 debug optional mx-welcome-dbgsym_19.7_amd64.deb
+ a43c75c487f53500bd76afb41fe8dccd 11179 admin optional mx-welcome_19.7_amd64.buildinfo
+ d97b7e66725f0ff9849e31357c0fd0b3 41354 admin optional mx-welcome_19.7_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl0iOsMTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumDEhCACLCt6tUHolRYtXQj9O36V9Fpgo3rSl
+Lu4gPbQj/NjudHPy/4mTJK95ArcUHSc8yUj8UlNkWogJik818YM0WJ13kNaD3NxF
+b3zwYPJELOraFXqb52QwuW0R7+bXiRbOKm8JtpJhAUUnqkA3KO4FGfZNszRYXJsZ
+7o/RJBuKB4akHXEBduYeouDH6Ycj4SKHGT8sNUPvP/kiGaP79B1ZODTMGnGluw1f
+5PbpvTqoIB2SBHxalU95cSSy2a/S9EdSbSjLUVRVkA7+h2WmgqB9n/uDKiba1wUF
+rXxCbgEeChuePLi0GNkGB3ecSDZJ3Yon+yizKCdY3k+iWOn/o6Vmtk9x
+=+4Vk
+-----END PGP SIGNATURE-----

@@ -40,6 +40,7 @@ mxwelcome::mxwelcome(QWidget *parent) :
     ui(new Ui::mxwelcome)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
 
