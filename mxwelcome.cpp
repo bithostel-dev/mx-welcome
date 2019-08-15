@@ -227,5 +227,5 @@ void mxwelcome::on_buttonCodecs_clicked()
 
 void mxwelcome::on_buttonFAQ_clicked()
 {
-    system("exo-open --launch WebBrowser https://mxlinux.org/wiki/help-files/mx-faqs");
+    system("xdg-open /usr/local/share/doc/FAQ.pdf");
 }
