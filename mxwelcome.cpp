@@ -29,13 +29,18 @@
 #include "ui_mxwelcome.h"
 #include "flatbutton.h"
 
+#include <QFileInfo>
+#include <QTextEdit>
 #include <QDebug>
+#include <QSettings>
+
 
 mxwelcome::mxwelcome(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::mxwelcome)
 {
     ui->setupUi(this);
+    setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
 
@@ -50,14 +55,48 @@ void mxwelcome::setup()
     version = getVersion("mx-welcome");
     this->setWindowTitle(tr("MX Welcome"));
     system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
+    ui->labelLoginInfo->setText("<p align=\"center\">" +
+                                tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
+                                tr("<b>Root</b> Password:  <b>root</b></p> "));
     // if running live
     QString test = runCmd("df -T / |tail -n1 |awk '{print $2}'").output;
-    qDebug() << test;
     if ( test == "aufs" || test == "overlay" ) {
         ui->checkBox->hide();
     } else {
-        ui->buttonLogininfo->hide();
+        ui->labelLoginInfo->hide();
     }
+
+    // setup title block & icons
+    QSettings settings("/usr/share/mx-welcome/mx-welcome.conf", QSettings::NativeFormat);
+    QString DISTRO=settings.value("DISTRO").toString();
+    QString CODENAME=settings.value("CODENAME").toString();
+    QString CONTRIBUTE=settings.value("CONTRIBUTE").toString();
+    QString CODECS=settings.value("CODECS").toString();
+    QString FAQ=settings.value("FAQ").toString();
+    QString FORUMS=settings.value("FORUMS").toString();
+    QString LOGO=settings.value("LOGO").toString();
+    QString PACKAGEINSTALLER=settings.value("PACKAGEINSTALLER").toString();
+    QString PANELORIENT=settings.value("PANELORIENT").toString();
+    QString TOOLS=settings.value("TOOLS").toString();
+    QString MANUAL=settings.value("MANUAL").toString();
+    QString VIDEOS=settings.value("VIDEOS").toString();
+    QString WIKI=settings.value("WIKI").toString();
+
+    ui->labelTitle->setText(tr("<html><head/><body><p align=\"center\"><span style=\" font-size:14pt; font-weight:600;\">%1 &quot;%2&quot;</span></p></body></html>").arg(DISTRO).arg(CODENAME));
+
+    //setup icons
+    ui->buttonCodecs->setIcon(QIcon(CODECS));
+    ui->buttonContribute->setIcon(QIcon(CONTRIBUTE));
+    ui->buttonFAQ->setIcon(QIcon(FAQ));
+    ui->buttonForum->setIcon(QIcon(FORUMS));
+    ui->labelMX->setPixmap(QPixmap(LOGO));
+    ui->buttonPackageInstall->setIcon(QIcon(PACKAGEINSTALLER));
+    ui->buttonPanelOrient->setIcon(QIcon(PANELORIENT));
+    ui->buttonTools->setIcon(QIcon(TOOLS));
+    ui->buttonManual->setIcon(QIcon(MANUAL));
+    ui->buttonVideo->setIcon(QIcon(VIDEOS));
+    ui->buttonWiki->setIcon(QIcon(WIKI));
+
     this->adjustSize();
 }
 
@@ -67,34 +106,19 @@ Result mxwelcome::runCmd(QString cmd)
     QEventLoop loop;
     proc = new QProcess(this);
     proc->setReadChannelMode(QProcess::MergedChannels);
-    connect(proc, SIGNAL(finished(int)), &loop, SLOT(quit()));
+    connect(proc, static_cast<void (QProcess::*)(int)>(&QProcess::finished), &loop, &QEventLoop::quit);
     proc->start("/bin/bash", QStringList() << "-c" << cmd);
     loop.exec();
-    disconnectAll();
     Result result = {proc->exitCode(), proc->readAll().trimmed()};
     delete proc;
     return result;
 }
 
-// disconnect all connections
-void mxwelcome::disconnectAll()
-{
-    disconnect(proc, SIGNAL(started()), 0, 0);
-    disconnect(proc, SIGNAL(finished(int)), 0, 0);
-}
 
 // Get version of the program
 QString mxwelcome::getVersion(QString name)
 {
-    QString cmd = QString("dpkg -l %1 | awk 'NR==6 {print $3}'").arg(name);
-    return runCmd(cmd).output;
-}
-
-// set proc and timer connections
-void mxwelcome::setConnections()
-{
-    connect(proc, SIGNAL(started()), SLOT(procStart()));
-    connect(proc, SIGNAL(finished(int)), SLOT(procDone(int)));
+    return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
 //// slots ////
@@ -109,11 +133,33 @@ void mxwelcome::on_buttonAbout_clicked()
                        tr("Program for displaying a welcome screen in MX Linux") +
                        "</h3></p><p align=\"center\"><a href=\"http://www.mxlinux.org/mx\">http://www.mxlinux.org/mx</a><br /></p><p align=\"center\">" +
                        tr("Copyright (c) MX Linux") + "<br /><br /></p>", 0, this);
-    msgBox.addButton(tr("License"), QMessageBox::AcceptRole);
-    msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
-    if (msgBox.exec() == QMessageBox::AcceptRole) {
+    QPushButton *btnLicense = msgBox.addButton(tr("License"), QMessageBox::HelpRole);
+    QPushButton *btnChangelog = msgBox.addButton(tr("Changelog"), QMessageBox::HelpRole);
+    QPushButton *btnCancel = msgBox.addButton(tr("Cancel"), QMessageBox::NoRole);
+    btnCancel->setIcon(QIcon::fromTheme("window-close"));
+
+    msgBox.exec();
+
+    if (msgBox.clickedButton() == btnLicense) {
         QString cmd = QString("mx-viewer http://mxlinux.org/wiki/licenses/license-mx-welcome '%1'").arg(tr("MX Welcome"));
         system(cmd.toUtf8());
+    } else if (msgBox.clickedButton() == btnChangelog) {
+        QDialog *changelog = new QDialog(this);
+        changelog->resize(600, 500);
+
+        QTextEdit *text = new QTextEdit;
+        text->setReadOnly(true);
+        text->setText(runCmd("zless /usr/share/doc/" + QFileInfo(QCoreApplication::applicationFilePath()).fileName()  + "/changelog.gz").output);
+
+        QPushButton *btnClose = new QPushButton(tr("&Close"));
+        btnClose->setIcon(QIcon::fromTheme("window-close"));
+        connect(btnClose, &QPushButton::clicked, changelog, &QDialog::close);
+
+        QVBoxLayout *layout = new QVBoxLayout;
+        layout->addWidget(text);
+        layout->addWidget(btnClose);
+        changelog->setLayout(layout);
+        changelog->exec();
     }
     this->show();
 }
@@ -131,33 +177,25 @@ void mxwelcome::on_checkBox_clicked(bool checked)
 // Start MX-Tools
 void mxwelcome::on_buttonTools_clicked()
 {
-    this->hide();
-    system("mx-tools");
-    this->show();
+    system("mx-tools&");
 }
 
 // Launch Manual in browser
 void mxwelcome::on_buttonManual_clicked()
 {
-    this->hide();
-    system("mx-viewer /usr/local/share/doc/mxum.html");
-    this->show();
+    system("mx-manual&");
 }
 
 // Launch Forum in browser
 void mxwelcome::on_buttonForum_clicked()
 {
-    this->hide();
-    system("mx-viewer http://forum.mxlinux.org/index.php");
-    this->show();
+    system("exo-open --launch WebBrowser http://forum.mxlinux.org/index.php");
 }
 
 // Launch Wiki in browser
 void mxwelcome::on_buttonWiki_clicked()
 {
-    this->hide();
-    system("mx-viewer http://www.mxlinux.org/wiki");
-    this->show();
+    system("exo-open --launch WebBrowser http://www.mxlinux.org/wiki");
 }
 
 // Launch Video links in browser
@@ -169,29 +207,25 @@ void mxwelcome::on_buttonVideo_clicked()
 // Launch Contribution page
 void mxwelcome::on_buttonContribute_clicked()
 {
-    this->hide();
-    system("mx-viewer http://www.mxlinux.org/donate");
-    this->show();
-}
-
-// Launch Help in browser
-void mxwelcome::on_buttonLogininfo_clicked()
-{
-    this->hide();
-    system("mx-viewer file:///usr/local/share/doc/mxum.html#toc-Subsection-2.4");
-    this->show();
+    system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
 }
 
 void mxwelcome::on_buttonPanelOrient_clicked()
 {
-    this->hide();
-    system("mx-defaultlook");
-    this->show();
+    system("mx-tweak&");
 }
 
 void mxwelcome::on_buttonPackageInstall_clicked()
 {
-    this->hide();
-    system("su-to-root -X -c mx-packageinstaller");
-    this->show();
+    system("su-to-root -X -c mx-packageinstaller&");
+}
+
+void mxwelcome::on_buttonCodecs_clicked()
+{
+    system("su-to-root -X -c mx-codecs&");
+}
+
+void mxwelcome::on_buttonFAQ_clicked()
+{
+    system("xdg-open /usr/local/share/doc/FAQ.pdf");
 }
