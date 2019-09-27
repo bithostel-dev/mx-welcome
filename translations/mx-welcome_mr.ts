@@ -1,4 +1,4 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="id" version="2.1">
+<?xml version="1.0" ?><!DOCTYPE TS><TS language="mr" version="2.1">
 <context>
     <name>QApplication</name>
     <message>
@@ -80,12 +80,12 @@
     <message>
         <location filename="mxwelcome.ui" line="706"/>
         <source>About this application</source>
-        <translation>Tentang aplikasi ini</translation>
+        <translation>या अनुप्रयोगाबद्दल</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="709"/>
         <source>About...</source>
-        <translation>Tentang</translation>
+        <translation>विषयी</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="716"/>
@@ -100,7 +100,7 @@
     <message>
         <location filename="mxwelcome.ui" line="773"/>
         <source>Close</source>
-        <translation>Tutup</translation>
+        <translation type="unfinished"/>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="780"/>
@@ -125,7 +125,7 @@
     <message>
         <location filename="mxwelcome.cpp" line="99"/>
         <source>Version: </source>
-        <translation>Versi:</translation>
+        <translation>आवृत्ती</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="100"/>
@@ -135,27 +135,27 @@
     <message>
         <location filename="mxwelcome.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>कॉपीराइट (c) एमएक्स लिनक्स</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="103"/>
         <source>License</source>
-        <translation>Lisensi</translation>
+        <translation>परवाना</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="104"/>
         <source>Changelog</source>
-        <translation>Changelog</translation>
+        <translation>बदल सूची</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="105"/>
         <source>Cancel</source>
-        <translation>Batal</translation>
+        <translation>रद्द करा</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="121"/>
         <source>&amp;Close</source>
-        <translation>&amp;Tutup</translation>
+        <translation>बंद</translation>
     </message>
 </context>
 </TS>

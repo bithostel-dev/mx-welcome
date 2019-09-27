@@ -15,7 +15,7 @@
         <location filename="mxwelcome.cpp" line="99"/>
         <location filename="mxwelcome.cpp" line="111"/>
         <source>MX Welcome</source>
-        <translation>MX Welcome</translation>
+        <translation>MX Bienvenida</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="70"/>
@@ -25,7 +25,7 @@
     <message>
         <location filename="mxwelcome.ui" line="113"/>
         <source>Popular Apps</source>
-        <translation>Aps Populares</translation>
+        <translation>Apps Populares</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="203"/>
@@ -45,7 +45,7 @@
     <message>
         <location filename="mxwelcome.ui" line="422"/>
         <source>Tweak (Panel, etc...)</source>
-        <translation>Retocar (Panel, etcétera,...)</translation>
+        <translation>Retocar (Panel, etc...)</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="486"/>

@@ -20,7 +20,7 @@
     <message>
         <location filename="mxwelcome.ui" line="70"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Büyük bir topluluk tarafından desteklenen,şaşırtıcı araçları ile hızlı, kullanıcı dostu ve kararlı bir işletim sistemi olan MX Linuxa Hoşgeldiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Büyük bir topluluk tarafından desteklenen, şaşırtıcı araçlarla yüklü, hızlı, kullanıcı dostu ve kararlı bir işletim sistemi olan MX Linux&apos;a Hoşgeldiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="113"/>
@@ -40,7 +40,7 @@
     <message>
         <location filename="mxwelcome.ui" line="377"/>
         <source>Contribute</source>
-        <translation>Katkı</translation>
+        <translation>Katkıda bulun</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="422"/>
@@ -55,7 +55,7 @@
     <message>
         <location filename="mxwelcome.ui" line="512"/>
         <source>Codecs</source>
-        <translation>Çözücüleri</translation>
+        <translation>Çözücüler</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="544"/>
@@ -70,7 +70,7 @@
     <message>
         <location filename="mxwelcome.ui" line="608"/>
         <source>FAQ</source>
-        <translation type="unfinished"/>
+        <translation>SSS</translation>
     </message>
     <message>
         <location filename="mxwelcome.ui" line="641"/>
@@ -110,7 +110,7 @@
     <message>
         <location filename="mxwelcome.cpp" line="57"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
-        <translation type="unfinished"/>
+        <translation>Varsayılan Kullanıcı Adı:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Varsayılan demo parolası:  &lt;b&gt;demo&lt;/b&gt;</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="58"/>
@@ -125,17 +125,17 @@
     <message>
         <location filename="mxwelcome.cpp" line="99"/>
         <source>Version: </source>
-        <translation>Sürüm</translation>
+        <translation>Sürüm:</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="100"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
-        <translation>MX linux hoşgeldin ekranını gösterme programı</translation>
+        <translation>MX Linux &apos;ta bir hoşgeldiniz ekranı gösterme programı</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation>Telif Hakkı (c) MX Linux</translation>
     </message>
     <message>
         <location filename="mxwelcome.cpp" line="103"/>
