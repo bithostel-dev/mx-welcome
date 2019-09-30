@@ -13,20 +13,20 @@ Build-Depends: debhelper (>= 9), qtbase5-dev, qttools5-dev-tools
 Package-List:
  mx-welcome deb admin optional arch=any
 Checksums-Sha1:
- ad214e84d902cd31f7b57ad4756afd6dd384e003 78988 mx-welcome_19.9.02.tar.xz
+ e43bf4fb494e679381aaa87d26d56ea69fb383d1 79340 mx-welcome_19.9.02.tar.xz
 Checksums-Sha256:
- e8ace8c41a578b68b5b0a41c624c9243c3ed6cfa58eaa04fe194fa28cb299b94 78988 mx-welcome_19.9.02.tar.xz
+ f4eacf3c042c6de790a6d3a9d0ecc1392e7c298a1a8dec09571e0f68d4ec957c 79340 mx-welcome_19.9.02.tar.xz
 Files:
- 8b489a0ea1943d9de47482845d8dc9da 78988 mx-welcome_19.9.02.tar.xz
+ c838e08eb376ef63992a3352b20022ab 79340 mx-welcome_19.9.02.tar.xz
 
 -----BEGIN PGP SIGNATURE-----
 
-iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl2RY+ITHGFkcmlhbkBt
-eGxpbnV4Lm9yZwAKCRBwk4x4BnnumCUeB/9MxTcrCtYm4SwvRyLsIQIC0YsatnX8
-bxzIG+L2JXTuI0hLOcqQAw/SlqQNmZMJeJOlRs5i+7M4sAozzb/cQuKuinF71C6d
-0VyQMOqSutWS3Yuj0nfyH4XO3LqWAxKgHCdAKc+cfazC4JdJtb5RK4OKCiTrZtms
-ERQ2n2MG3IwMiN8nt3bheMLUuaG2Nd65QLlLRy7GtJEGuzc3qe93Tr1takbTJD0c
-TA3gwJwVTOOv2vplTkZl9xwPI1soY03KWad3HG9OWKEOfn8GN9WQ7hJQ/IuGW+md
-3bLnkb9XxgJAGx3ycGPvDNnINxuPV/jJ4onF8CgSyeDoKRHmOOJxAbKE
-=j36b
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl2RaIMTHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumHWiB/wO2/xycR3TU5S8LRu6P6iXRRp1q4yE
+4NroHa2s88c5A3xM/vxyLyg8l5Jdzf/2j/n90chmNUxfUD0Lkis7QnPqbtX1vKvT
+eHwg22qoU8COf5A1OTEQ+Rx//MGz0X4LL5X3Be55XmrIq5F+HOIgCcvJVn27aYIG
+31tJhBiP/2m64fHQWwV4zs3HQb2b71+KeQPJShdnoF9ZAkyzr66PCrjA30QKFgzq
+aFJRGPk5wGTk8MapavshEAMohjR6is4iPBD0i5DxbdMDd5Z/KHEANZlXC13fsqrI
+HBOcIclejAGwXaMjEpKOv4W7p/vWHv+gMG6nu84t9DArUW0MxxTp9qY2
+=JwBj
 -----END PGP SIGNATURE-----

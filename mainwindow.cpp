@@ -146,7 +146,7 @@ void MainWindow::on_buttonAbout_clicked()
     msgBox.exec();
 
     if (msgBox.clickedButton() == btnLicense) {
-        QString cmd = QString("mx-viewer http://mxlinux.org/wiki/licenses/license-mx-welcome '%1'").arg(tr("MX Welcome"));
+        QString cmd = QString("mx-viewer file:///usr/share/doc/mx-welcome/license.html '%1'").arg(tr("MX Welcome"));
         system(cmd.toUtf8());
     } else if (msgBox.clickedButton() == btnChangelog) {
         QDialog *changelog = new QDialog(this);
