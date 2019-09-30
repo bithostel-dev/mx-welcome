@@ -1,8 +1,166 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="tr" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="tr">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.cpp" line="58"/>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="149"/>
+        <source>MX Welcome</source>
+        <translation type="unfinished">MX Karşılama</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="70"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Büyük bir topluluk tarafından desteklenen, şaşırtıcı araçlarla yüklü, hızlı, kullanıcı dostu ve kararlı bir işletim sistemi olan MX Linux&apos;a Hoşgeldiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="113"/>
+        <source>Popular Apps</source>
+        <translation type="unfinished">Gözde Uygulamalar</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="203"/>
+        <source>Forums</source>
+        <translation type="unfinished">Forumlar</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="280"/>
+        <source>Videos</source>
+        <translation type="unfinished">Videolar</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="377"/>
+        <source>Contribute</source>
+        <translation type="unfinished">Katkıda bulun</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="422"/>
+        <source>Tweak (Panel, etc...)</source>
+        <translation type="unfinished">İnce Ayar (Panel. vs...)</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="486"/>
+        <source>Tools</source>
+        <translation type="unfinished">Araçlar</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="512"/>
+        <source>Codecs</source>
+        <translation type="unfinished">Çözücüler</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="544"/>
+        <source>Wiki</source>
+        <translation type="unfinished">Wiki</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="576"/>
+        <source>Users Manual</source>
+        <translation type="unfinished">Kullanma Kılavuzu</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="608"/>
+        <source>FAQ</source>
+        <translation type="unfinished">SSS</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="639"/>
+        <source>Show this dialog at start up</source>
+        <translation type="unfinished">Bu pencereyi her açılışta göster</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="704"/>
+        <source>About this application</source>
+        <translation type="unfinished">Uygulama hakkında</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="707"/>
+        <source>About...</source>
+        <translation type="unfinished">Hakkında...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="714"/>
+        <source>Alt+B</source>
+        <translation type="unfinished">Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="768"/>
+        <source>Quit application</source>
+        <translation type="unfinished">Uygulamadan çık</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="771"/>
+        <source>Close</source>
+        <translation type="unfinished">Kapat</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="778"/>
+        <source>Alt+N</source>
+        <translation type="unfinished">Alt+N</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="66"/>
+        <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
+        <translation type="unfinished">Varsayılan Kullanıcı Adı:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Varsayılan demo parolası:  &lt;b&gt;demo&lt;/b&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="67"/>
+        <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
+        <translation type="unfinished">&lt;b&gt;Root&lt;/b&gt; Parola: &lt;b&gt;root&lt;/b&gt;&lt;/p&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="92"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;%1 &amp;quot;%2&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <source>About MX Welcome</source>
+        <translation type="unfinished">MX Karşılama Hakkında</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <source>Version: </source>
+        <translation type="unfinished">Sürüm:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="138"/>
+        <source>Program for displaying a welcome screen in MX Linux</source>
+        <translation type="unfinished">MX Linux &apos;ta bir hoşgeldiniz ekranı gösterme programı</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished">Telif Hakkı (c) MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="141"/>
+        <source>License</source>
+        <translation type="unfinished">Ruhsat</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="142"/>
+        <source>Changelog</source>
+        <translation type="unfinished">Değişim günlüğü</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="143"/>
+        <source>Cancel</source>
+        <translation type="unfinished">İptal</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="159"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished">&amp;Kapat</translation>
+    </message>
+</context>
 <context>
     <name>QApplication</name>
     <message>
-        <location filename="main.cpp" line="55"/>
+        <location filename="../main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
         <translation>Bu programı normal kullanıcı olarak çalıştırmalısınız.</translation>
     </message>
@@ -10,152 +168,120 @@
 <context>
     <name>mxwelcome</name>
     <message>
-        <location filename="mxwelcome.ui" line="14"/>
-        <location filename="mxwelcome.cpp" line="54"/>
-        <location filename="mxwelcome.cpp" line="99"/>
-        <location filename="mxwelcome.cpp" line="111"/>
         <source>MX Welcome</source>
-        <translation>MX Karşılama</translation>
+        <translation type="vanished">MX Karşılama</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="70"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Büyük bir topluluk tarafından desteklenen, şaşırtıcı araçlarla yüklü, hızlı, kullanıcı dostu ve kararlı bir işletim sistemi olan MX Linux&apos;a Hoşgeldiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Büyük bir topluluk tarafından desteklenen, şaşırtıcı araçlarla yüklü, hızlı, kullanıcı dostu ve kararlı bir işletim sistemi olan MX Linux&apos;a Hoşgeldiniz.&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="113"/>
         <source>Popular Apps</source>
-        <translation>Gözde Uygulamalar</translation>
+        <translation type="vanished">Gözde Uygulamalar</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="203"/>
         <source>Forums</source>
-        <translation>Forumlar</translation>
+        <translation type="vanished">Forumlar</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="280"/>
         <source>Videos</source>
-        <translation>Videolar</translation>
+        <translation type="vanished">Videolar</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="377"/>
         <source>Contribute</source>
-        <translation>Katkıda bulun</translation>
+        <translation type="vanished">Katkıda bulun</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="422"/>
         <source>Tweak (Panel, etc...)</source>
-        <translation>İnce Ayar (Panel. vs...)</translation>
+        <translation type="vanished">İnce Ayar (Panel. vs...)</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="486"/>
         <source>Tools</source>
-        <translation>Araçlar</translation>
+        <translation type="vanished">Araçlar</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="512"/>
         <source>Codecs</source>
-        <translation>Çözücüler</translation>
+        <translation type="vanished">Çözücüler</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="544"/>
         <source>Wiki</source>
-        <translation>Wiki</translation>
+        <translation type="vanished">Wiki</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="576"/>
         <source>Users Manual</source>
-        <translation>Kullanma Kılavuzu</translation>
+        <translation type="vanished">Kullanma Kılavuzu</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="608"/>
         <source>FAQ</source>
-        <translation>SSS</translation>
+        <translation type="vanished">SSS</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="641"/>
         <source>Show this dialog at start up</source>
-        <translation>Bu pencereyi her açılışta göster</translation>
+        <translation type="vanished">Bu pencereyi her açılışta göster</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="706"/>
         <source>About this application</source>
-        <translation>Uygulama hakkında</translation>
+        <translation type="vanished">Uygulama hakkında</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="709"/>
         <source>About...</source>
-        <translation>Hakkında...</translation>
+        <translation type="vanished">Hakkında...</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="716"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="770"/>
         <source>Quit application</source>
-        <translation>Uygulamadan çık</translation>
+        <translation type="vanished">Uygulamadan çık</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="773"/>
         <source>Close</source>
-        <translation>Kapat</translation>
+        <translation type="vanished">Kapat</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="780"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="57"/>
         <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
-        <translation>Varsayılan Kullanıcı Adı:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Varsayılan demo parolası:  &lt;b&gt;demo&lt;/b&gt;</translation>
+        <translation type="vanished">Varsayılan Kullanıcı Adı:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Varsayılan demo parolası:  &lt;b&gt;demo&lt;/b&gt;</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="58"/>
         <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
-        <translation>&lt;b&gt;Root&lt;/b&gt; Parola: &lt;b&gt;root&lt;/b&gt;&lt;/p&gt;</translation>
+        <translation type="vanished">&lt;b&gt;Root&lt;/b&gt; Parola: &lt;b&gt;root&lt;/b&gt;&lt;/p&gt;</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="98"/>
         <source>About MX Welcome</source>
-        <translation>MX Karşılama Hakkında</translation>
+        <translation type="vanished">MX Karşılama Hakkında</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="99"/>
         <source>Version: </source>
-        <translation>Sürüm:</translation>
+        <translation type="vanished">Sürüm:</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="100"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
-        <translation>MX Linux &apos;ta bir hoşgeldiniz ekranı gösterme programı</translation>
+        <translation type="vanished">MX Linux &apos;ta bir hoşgeldiniz ekranı gösterme programı</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Telif Hakkı (c) MX Linux</translation>
+        <translation type="vanished">Telif Hakkı (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="103"/>
         <source>License</source>
-        <translation>Ruhsat</translation>
+        <translation type="vanished">Ruhsat</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="104"/>
         <source>Changelog</source>
-        <translation>Değişim günlüğü</translation>
+        <translation type="vanished">Değişim günlüğü</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="105"/>
         <source>Cancel</source>
-        <translation>İptal</translation>
+        <translation type="vanished">İptal</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="121"/>
         <source>&amp;Close</source>
-        <translation>&amp;Kapat</translation>
+        <translation type="vanished">&amp;Kapat</translation>
     </message>
 </context>
 </TS>

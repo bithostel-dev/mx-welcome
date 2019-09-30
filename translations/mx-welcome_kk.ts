@@ -1,8 +1,166 @@
-<?xml version="1.0" ?><!DOCTYPE TS><TS language="kk" version="2.1">
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TS>
+<TS version="2.1" language="kk">
+<context>
+    <name>MainWindow</name>
+    <message>
+        <location filename="../mainwindow.ui" line="14"/>
+        <location filename="../mainwindow.cpp" line="58"/>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <location filename="../mainwindow.cpp" line="149"/>
+        <source>MX Welcome</source>
+        <translation type="unfinished">MX қарсы алу қолданбасы</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="70"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MX Linux-ке қош келдіңіз! Ол - жылдам, икемді және тұрақты ОЖ, құрамында пайдалы саймандары және тамаша қоғамдастығы бар. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="113"/>
+        <source>Popular Apps</source>
+        <translation type="unfinished">Әйгілі қолданбалар</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="203"/>
+        <source>Forums</source>
+        <translation type="unfinished">Форумдар</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="280"/>
+        <source>Videos</source>
+        <translation type="unfinished">Видеолар</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="377"/>
+        <source>Contribute</source>
+        <translation type="unfinished">Үлес қосу</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="422"/>
+        <source>Tweak (Panel, etc...)</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="486"/>
+        <source>Tools</source>
+        <translation type="unfinished">Саймандар</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="512"/>
+        <source>Codecs</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="544"/>
+        <source>Wiki</source>
+        <translation type="unfinished">Вики</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="576"/>
+        <source>Users Manual</source>
+        <translation type="unfinished">Пайдаланушы нұсқаулығы</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="608"/>
+        <source>FAQ</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="639"/>
+        <source>Show this dialog at start up</source>
+        <translation type="unfinished">Бұл сұхбатты жүйеге кірген кезде көрсету</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="704"/>
+        <source>About this application</source>
+        <translation type="unfinished">Бұл қолданба жөнінде</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="707"/>
+        <source>About...</source>
+        <translation type="unfinished">Осы туралы...</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="714"/>
+        <source>Alt+B</source>
+        <translation type="unfinished">Alt+B</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="768"/>
+        <source>Quit application</source>
+        <translation type="unfinished">Қолданба жұмысын аяқтау</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="771"/>
+        <source>Close</source>
+        <translation type="unfinished">Жабу</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.ui" line="778"/>
+        <source>Alt+N</source>
+        <translation type="unfinished">Alt+N</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="66"/>
+        <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="67"/>
+        <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="92"/>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:600;&quot;&gt;%1 &amp;quot;%2&amp;quot;&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="136"/>
+        <source>About MX Welcome</source>
+        <translation type="unfinished">MX қарсы алу қолданбасы туралы</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="137"/>
+        <source>Version: </source>
+        <translation type="unfinished">Нұсқасы:</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="138"/>
+        <source>Program for displaying a welcome screen in MX Linux</source>
+        <translation type="unfinished">MX Linux ішінде қарсы алу экранын көрсетуге арналған қолданба</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="140"/>
+        <source>Copyright (c) MX Linux</source>
+        <translation type="unfinished">Copyright (c) MX Linux</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="141"/>
+        <source>License</source>
+        <translation type="unfinished">Лицензиясы</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="142"/>
+        <source>Changelog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="143"/>
+        <source>Cancel</source>
+        <translation type="unfinished">Бас тарту</translation>
+    </message>
+    <message>
+        <location filename="../mainwindow.cpp" line="159"/>
+        <source>&amp;Close</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>QApplication</name>
     <message>
-        <location filename="main.cpp" line="55"/>
+        <location filename="../main.cpp" line="55"/>
         <source>You must run this program as normal user.</source>
         <translation>Бұл бағдарламаны қалыпты пайдаланушы атынан жөнелтуіңіз керек.</translation>
     </message>
@@ -10,152 +168,92 @@
 <context>
     <name>mxwelcome</name>
     <message>
-        <location filename="mxwelcome.ui" line="14"/>
-        <location filename="mxwelcome.cpp" line="54"/>
-        <location filename="mxwelcome.cpp" line="99"/>
-        <location filename="mxwelcome.cpp" line="111"/>
         <source>MX Welcome</source>
-        <translation>MX қарсы алу қолданбасы</translation>
+        <translation type="vanished">MX қарсы алу қолданбасы</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="70"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;Welcome to MX Linux, a fast, friendly, and stable OS loaded with amazing tools and supported by a great community. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MX Linux-ке қош келдіңіз! Ол - жылдам, икемді және тұрақты ОЖ, құрамында пайдалы саймандары және тамаша қоғамдастығы бар. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation type="vanished">&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:600;&quot;&gt;MX Linux-ке қош келдіңіз! Ол - жылдам, икемді және тұрақты ОЖ, құрамында пайдалы саймандары және тамаша қоғамдастығы бар. &lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="113"/>
         <source>Popular Apps</source>
-        <translation>Әйгілі қолданбалар</translation>
+        <translation type="vanished">Әйгілі қолданбалар</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="203"/>
         <source>Forums</source>
-        <translation>Форумдар</translation>
+        <translation type="vanished">Форумдар</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="280"/>
         <source>Videos</source>
-        <translation>Видеолар</translation>
+        <translation type="vanished">Видеолар</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="377"/>
         <source>Contribute</source>
-        <translation>Үлес қосу</translation>
+        <translation type="vanished">Үлес қосу</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="422"/>
-        <source>Tweak (Panel, etc...)</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.ui" line="486"/>
         <source>Tools</source>
-        <translation>Саймандар</translation>
+        <translation type="vanished">Саймандар</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="512"/>
-        <source>Codecs</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.ui" line="544"/>
         <source>Wiki</source>
-        <translation>Вики</translation>
+        <translation type="vanished">Вики</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="576"/>
         <source>Users Manual</source>
-        <translation>Пайдаланушы нұсқаулығы</translation>
+        <translation type="vanished">Пайдаланушы нұсқаулығы</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="608"/>
-        <source>FAQ</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.ui" line="641"/>
         <source>Show this dialog at start up</source>
-        <translation>Бұл сұхбатты жүйеге кірген кезде көрсету</translation>
+        <translation type="vanished">Бұл сұхбатты жүйеге кірген кезде көрсету</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="706"/>
         <source>About this application</source>
-        <translation>Бұл қолданба жөнінде</translation>
+        <translation type="vanished">Бұл қолданба жөнінде</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="709"/>
         <source>About...</source>
-        <translation>Осы туралы...</translation>
+        <translation type="vanished">Осы туралы...</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="716"/>
         <source>Alt+B</source>
-        <translation>Alt+B</translation>
+        <translation type="vanished">Alt+B</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="770"/>
         <source>Quit application</source>
-        <translation>Қолданба жұмысын аяқтау</translation>
+        <translation type="vanished">Қолданба жұмысын аяқтау</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="773"/>
         <source>Close</source>
-        <translation>Жабу</translation>
+        <translation type="vanished">Жабу</translation>
     </message>
     <message>
-        <location filename="mxwelcome.ui" line="780"/>
         <source>Alt+N</source>
-        <translation>Alt+N</translation>
+        <translation type="vanished">Alt+N</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="57"/>
-        <source>Default username:  &lt;b&gt;demo&lt;/b&gt; &lt;/p&gt; &lt;p align=&quot;center&quot;&gt;Default demo password:  &lt;b&gt;demo&lt;/b&gt;</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.cpp" line="58"/>
-        <source>&lt;b&gt;Root&lt;/b&gt; Password:  &lt;b&gt;root&lt;/b&gt;&lt;/p&gt; </source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.cpp" line="98"/>
         <source>About MX Welcome</source>
-        <translation>MX қарсы алу қолданбасы туралы</translation>
+        <translation type="vanished">MX қарсы алу қолданбасы туралы</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="99"/>
         <source>Version: </source>
-        <translation>Нұсқасы:</translation>
+        <translation type="vanished">Нұсқасы:</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="100"/>
         <source>Program for displaying a welcome screen in MX Linux</source>
-        <translation>MX Linux ішінде қарсы алу экранын көрсетуге арналған қолданба</translation>
+        <translation type="vanished">MX Linux ішінде қарсы алу экранын көрсетуге арналған қолданба</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="102"/>
         <source>Copyright (c) MX Linux</source>
-        <translation>Copyright (c) MX Linux</translation>
+        <translation type="vanished">Copyright (c) MX Linux</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="103"/>
         <source>License</source>
-        <translation>Лицензиясы</translation>
+        <translation type="vanished">Лицензиясы</translation>
     </message>
     <message>
-        <location filename="mxwelcome.cpp" line="104"/>
-        <source>Changelog</source>
-        <translation type="unfinished"/>
-    </message>
-    <message>
-        <location filename="mxwelcome.cpp" line="105"/>
         <source>Cancel</source>
-        <translation>Бас тарту</translation>
-    </message>
-    <message>
-        <location filename="mxwelcome.cpp" line="121"/>
-        <source>&amp;Close</source>
-        <translation type="unfinished"/>
+        <translation type="vanished">Бас тарту</translation>
     </message>
 </context>
 </TS>

@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxwelcome.h
+ *  mainwindow.h
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -25,14 +25,14 @@
  **********************************************************************/
 
 
-#ifndef MXWELCOME_H
-#define MXWELCOME_H
+#ifndef MAINWINDOW_H
+#define MAINWINDOW_H
 
 #include <QMessageBox>
 #include <QProcess>
 
 namespace Ui {
-class mxwelcome;
+class MainWindow;
 }
 
 struct Result {
@@ -41,7 +41,7 @@ struct Result {
 };
 
 
-class mxwelcome : public QDialog
+class MainWindow : public QDialog
 {
     Q_OBJECT
 
@@ -49,8 +49,8 @@ protected:
     QProcess *proc;
 
 public:
-    explicit mxwelcome(QWidget *parent = 0);
-    ~mxwelcome();
+    explicit MainWindow(QWidget *parent = 0);
+    ~MainWindow();
 
     Result runCmd(QString cmd);
     QString getVersion(QString name);
@@ -76,9 +76,9 @@ private slots:
     void on_buttonFAQ_clicked();
 
 private:
-    Ui::mxwelcome *ui;
+    Ui::MainWindow *ui;
 };
 
 
-#endif // MXWELCOME_H
+#endif // MAINWINDOW_H
 

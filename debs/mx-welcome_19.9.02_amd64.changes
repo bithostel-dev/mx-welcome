@@ -1,0 +1,50 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sun, 29 Sep 2019 22:00:47 -0400
+Source: mx-welcome
+Binary: mx-welcome
+Architecture: source amd64
+Version: 19.9.02
+Distribution: mx
+Urgency: medium
+Maintainer: Adrian <adrian@mxlinux.org>
+Changed-By: Adrian <adrian@mxlinux.org>
+Description:
+ mx-welcome - MX Welcome
+Changes:
+ mx-welcome (19.9.02) mx; urgency=medium
+ .
+   * preserve "AutoStartup" checkbox option
+   * translation refresh
+Checksums-Sha1:
+ f5dbedb9c6433be4f5f589ffe60755c0c13b8918 1165 mx-welcome_19.9.02.dsc
+ ad214e84d902cd31f7b57ad4756afd6dd384e003 78988 mx-welcome_19.9.02.tar.xz
+ 07386a00ed580d442c9ecd7fa494b0c2e9c2eea3 503694 mx-welcome-dbgsym_19.9.02_amd64.deb
+ a0cfc335fa55a9cb0672894750ae7b2312270bc4 11284 mx-welcome_19.9.02_amd64.buildinfo
+ c3d0a04fd51f0b6edba3e06f3ffefc40ee3fb862 43730 mx-welcome_19.9.02_amd64.deb
+Checksums-Sha256:
+ 5548d3369a5be5276f5d63300ccebde75b3a27ec541fdd63a8d57809f91e4690 1165 mx-welcome_19.9.02.dsc
+ e8ace8c41a578b68b5b0a41c624c9243c3ed6cfa58eaa04fe194fa28cb299b94 78988 mx-welcome_19.9.02.tar.xz
+ 8608324f569921722530a8dd679d7551f12a2b736ac4ee315a3040e15e7462e1 503694 mx-welcome-dbgsym_19.9.02_amd64.deb
+ 016a10ed4a392a04f4d97242d0a061f2a1f143df0cb95ef6d361a47af2071560 11284 mx-welcome_19.9.02_amd64.buildinfo
+ 26444ced0fa1483388752d4e367e1bae3ce846c9ec6ebbaeecfa8033e97ccc76 43730 mx-welcome_19.9.02_amd64.deb
+Files:
+ fbb87386ea258e080c1e60c3b80217e1 1165 admin optional mx-welcome_19.9.02.dsc
+ 8b489a0ea1943d9de47482845d8dc9da 78988 admin optional mx-welcome_19.9.02.tar.xz
+ b3738a40cd097ad90c556ede5ff5e732 503694 debug optional mx-welcome-dbgsym_19.9.02_amd64.deb
+ 339a93335b9f4cd66ba6d2b4b49f5785 11284 admin optional mx-welcome_19.9.02_amd64.buildinfo
+ 633f780b9bdcd36daabfc8568716cd31 43730 admin optional mx-welcome_19.9.02_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAEBCAAxFiEE8ndToY6S45N+YzXncJOMeAZ57pgFAl2RY+ITHGFkcmlhbkBt
+eGxpbnV4Lm9yZwAKCRBwk4x4BnnumBFMB/9OiRv8ilhuaz+gsbdHsXjbeB1ixdb1
+c9dl7blg6Wv2wS+TcENsBY9pb+eKJ2V8+SGVgA1NyZGfCTRoGN+I994ENHCa+RxM
+HGIeZKPTmey4pmVCDxeU32zjioB2hV838hDfBD0cNt0CmwWSnw2CW1EPrMUfZE4W
+5J+BUA3AWVl+GL1vMS9ggAMSsyhtCdeHxiqpKoiFcCnmnzfXmWbEyO3wVImdZ7gh
+BsXHqpAEdz8ODTX3PNrt2rogtrai1/cI1Nim0FeRu7fCwbb+9xsWCdsyatJQZWAL
+pWJp4pThnSRiqpaeHWmZFGPjuyLpPP1G9tyhKc1jOst7Jb/jsQuOKFIC
+=Y8eR
+-----END PGP SIGNATURE-----

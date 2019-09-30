@@ -1,5 +1,5 @@
 /**********************************************************************
- *  mxwelcome.cpp
+ *  mainwindow.cpp
  **********************************************************************
  * Copyright (C) 2015 MX Authors
  *
@@ -25,9 +25,10 @@
  **********************************************************************/
 
 
-#include "mxwelcome.h"
-#include "ui_mxwelcome.h"
+#include "mainwindow.h"
+#include "ui_mainwindow.h"
 #include "flatbutton.h"
+#include "version.h"
 
 #include <QFileInfo>
 #include <QTextEdit>
@@ -35,26 +36,32 @@
 #include <QSettings>
 
 
-mxwelcome::mxwelcome(QWidget *parent) :
+MainWindow::MainWindow(QWidget *parent) :
     QDialog(parent),
-    ui(new Ui::mxwelcome)
+    ui(new Ui::MainWindow)
 {
+    qDebug().noquote() << QCoreApplication::applicationName() << "version:" << VERSION;
     ui->setupUi(this);
     setWindowFlags(Qt::Window); // for the close, min and max buttons
     setup();
 }
 
-mxwelcome::~mxwelcome()
+MainWindow::~MainWindow()
 {
     delete ui;
 }
 
 // setup versious items first time program runs
-void mxwelcome::setup()
+void MainWindow::setup()
 {
     version = getVersion("mx-welcome");
     this->setWindowTitle(tr("MX Welcome"));
-    system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
+
+    QSettings user_settings(QCoreApplication::applicationName());
+    bool autostart = user_settings.value("AutoStartup", false).toBool();
+    ui->checkBox->setChecked(autostart);
+    if (!autostart) system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
+
     ui->labelLoginInfo->setText("<p align=\"center\">" +
                                 tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
                                 tr("<b>Root</b> Password:  <b>root</b></p> "));
@@ -101,7 +108,7 @@ void mxwelcome::setup()
 }
 
 // Util function for getting bash command output and error code
-Result mxwelcome::runCmd(QString cmd)
+Result MainWindow::runCmd(QString cmd)
 {
     QEventLoop loop;
     proc = new QProcess(this);
@@ -116,15 +123,13 @@ Result mxwelcome::runCmd(QString cmd)
 
 
 // Get version of the program
-QString mxwelcome::getVersion(QString name)
+QString MainWindow::getVersion(QString name)
 {
     return runCmd("dpkg-query -f '${Version}' -W " + name).output;
 }
 
-//// slots ////
-
 // About button clicked
-void mxwelcome::on_buttonAbout_clicked()
+void MainWindow::on_buttonAbout_clicked()
 {
     this->hide();
     QMessageBox msgBox(QMessageBox::NoIcon,
@@ -165,67 +170,70 @@ void mxwelcome::on_buttonAbout_clicked()
 }
 
 // Add/remove autostart at login
-void mxwelcome::on_checkBox_clicked(bool checked)
+void MainWindow::on_checkBox_clicked(bool checked)
 {
+    QSettings user_settings(QCoreApplication::applicationName());
     if (checked) {
         system("cp /usr/share/mx-welcome/mx-welcome.desktop ~/.config/autostart/mx-welcome.desktop");
+        user_settings.setValue("AutoStartup", true);
     } else {
         system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
+        user_settings.setValue("AutoStartup", false);
     }
 }
 
 // Start MX-Tools
-void mxwelcome::on_buttonTools_clicked()
+void MainWindow::on_buttonTools_clicked()
 {
     system("mx-tools&");
 }
 
 // Launch Manual in browser
-void mxwelcome::on_buttonManual_clicked()
+void MainWindow::on_buttonManual_clicked()
 {
     system("mx-manual&");
 }
 
 // Launch Forum in browser
-void mxwelcome::on_buttonForum_clicked()
+void MainWindow::on_buttonForum_clicked()
 {
     system("exo-open --launch WebBrowser http://forum.mxlinux.org/index.php");
 }
 
 // Launch Wiki in browser
-void mxwelcome::on_buttonWiki_clicked()
+void MainWindow::on_buttonWiki_clicked()
 {
     system("exo-open --launch WebBrowser http://www.mxlinux.org/wiki");
 }
 
 // Launch Video links in browser
-void mxwelcome::on_buttonVideo_clicked()
+void MainWindow::on_buttonVideo_clicked()
 {
     system("exo-open --launch WebBrowser http://www.mxlinux.org/videos/");
 }
 
 // Launch Contribution page
-void mxwelcome::on_buttonContribute_clicked()
+void MainWindow::on_buttonContribute_clicked()
 {
     system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
 }
 
-void mxwelcome::on_buttonPanelOrient_clicked()
+void MainWindow::on_buttonPanelOrient_clicked()
 {
     system("mx-tweak&");
 }
 
-void mxwelcome::on_buttonPackageInstall_clicked()
+void MainWindow::on_buttonPackageInstall_clicked()
 {
     system("su-to-root -X -c mx-packageinstaller&");
 }
 
-void mxwelcome::on_buttonCodecs_clicked()
+void MainWindow::on_buttonCodecs_clicked()
 {
     system("su-to-root -X -c mx-codecs&");
 }
 
-void mxwelcome::on_buttonFAQ_clicked()
+void MainWindow::on_buttonFAQ_clicked()
 {
     system("xdg-open /usr/local/share/doc/FAQ.pdf");
 }
