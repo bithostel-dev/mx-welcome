@@ -235,5 +235,5 @@ void MainWindow::on_buttonCodecs_clicked()
 
 void MainWindow::on_buttonFAQ_clicked()
 {
-    system("xdg-open /usr/local/share/doc/FAQ.pdf");
+    system("mx-faq&");
 }
