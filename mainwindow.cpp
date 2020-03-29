@@ -62,16 +62,10 @@ void MainWindow::setup()
     ui->checkBox->setChecked(autostart);
     if (!autostart) system("rm ~/.config/autostart/mx-welcome.desktop >/dev/null 2>&1");
 
-    ui->labelLoginInfo->setText("<p align=\"center\">" +
-                                tr("Default username:  <b>demo</b> </p> <p align=\"center\">Default demo password:  <b>demo</b>") + "</p><p align=\"center\">" +
-                                tr("<b>Root</b> Password:  <b>root</b></p> "));
+    ui->labelLoginInfo->setText("<p align=\"center\">" + tr("User demo, password:") + "<b> demo</b>. " + tr("Superuser root, password:") + "<b> root</b>." + "</p>");
     // if running live
     QString test = runCmd("df -T / |tail -n1 |awk '{print $2}'").output;
-    if ( test == "aufs" || test == "overlay" ) {
-        ui->checkBox->hide();
-    } else {
-        ui->labelLoginInfo->hide();
-    }
+    ( test == "aufs" || test == "overlay" ) ? ui->checkBox->hide() : ui->labelLoginInfo->hide();
 
     // setup title block & icons
     QSettings settings("/usr/share/mx-welcome/mx-welcome.conf", QSettings::NativeFormat);
