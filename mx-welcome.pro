@@ -62,7 +62,6 @@ TRANSLATIONS += translations/mx-welcome_am.ts \
                 translations/mx-welcome_is.ts \
                 translations/mx-welcome_it.ts \
                 translations/mx-welcome_ja.ts \
-                translations/mx-welcome_ja_JP.ts \
                 translations/mx-welcome_kk.ts \
                 translations/mx-welcome_ko.ts \
                 translations/mx-welcome_lt.ts \
