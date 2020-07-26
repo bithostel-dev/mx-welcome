@@ -191,25 +191,25 @@ void MainWindow::on_buttonManual_clicked()
 // Launch Forum in browser
 void MainWindow::on_buttonForum_clicked()
 {
-    system("exo-open --launch WebBrowser http://forum.mxlinux.org/index.php");
+    system("xdg-open http://forum.mxlinux.org/index.php");
 }
 
 // Launch Wiki in browser
 void MainWindow::on_buttonWiki_clicked()
 {
-    system("exo-open --launch WebBrowser http://www.mxlinux.org/wiki");
+    system("xdg-open http://www.mxlinux.org/wiki");
 }
 
 // Launch Video links in browser
 void MainWindow::on_buttonVideo_clicked()
 {
-    system("exo-open --launch WebBrowser http://www.mxlinux.org/videos/");
+    system("xdg-open http://www.mxlinux.org/videos/");
 }
 
 // Launch Contribution page
 void MainWindow::on_buttonContribute_clicked()
 {
-    system("exo-open --launch WebBrowser http://www.mxlinux.org/donate");
+    system("xdg-open http://www.mxlinux.org/donate");
 }
 
 void MainWindow::on_buttonPanelOrient_clicked()
